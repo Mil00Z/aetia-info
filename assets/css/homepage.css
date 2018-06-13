@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
@@ -7,1349 +7,636 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
-@font-face {
-  font-family: "Segoe UI";
-  src: url("../../fonts/segoeui.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-body, html {
-  font-size: 100%;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: white;
-  font-family: "Open Sans", sans-serif, "Roboto", sans-serif, sans-serif; }
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-ul, ol {
-  list-style-type: none;
-  padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/base\/_reset\.scss}line{font-family:\000032}}
+body, html { font-size: 100%; width: 100%; height: 100%; margin: 0; padding: 0; background: white; font-family: "Open Sans", sans-serif, "Roboto", sans-serif, sans-serif; }
 
-a, a:hover, a:focus {
-  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000311}}
+ul, ol { list-style-type: none; padding-left: 0; }
 
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000315}}
+a, a:hover, a:focus { text-decoration: none; }
 
-@font-face {
-  font-family: "Segoe UI";
-  src: url("../../fonts/segoeui.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-.banner-top {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000318}}
+img { max-width: 100%; height: auto; -o-object-fit: cover; object-fit: cover; }
 
-.banner-top h1 {
-  font-size: 40px;
-  color: #fff;
-  padding-bottom: 5px;
-  border-bottom: 3px solid currentColor;
-  text-shadow: 1px 1px 1px #333333;
-  text-transform: uppercase; }
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news {
-  padding: 15px 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000336}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
 
-.more {
-  position: relative;
-  color: #2c317d; }
-  .more::after {
-    content: '';
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: currentColor;
-    transition: width 0.1s ease-in; }
-  .more:hover::after {
-    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news { padding: 15px 10px 20px; }
 
-#blog-news .blog_content .blog_content--top .tag {
-  padding: 3px 5px;
-  text-align: center;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000348}}
+#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li { border-radius: 5px; }
 
-.services_content--title {
-  display: inline-block; }
-  .services_content--title > h2 {
-    font-size: 30px;
-    color: #2c317d; }
-  .services_content--title > h3 {
-    font-size: 22px;
-    color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000351}}
+.more { position: relative; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000354}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000365}}
+.more:hover::after { width: 100%; }
 
-.link_cta {
-  width: 200px;
-  height: 70px;
-  padding: 1rem 0.5rem;
-  border: 1px solid transparent;
-  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+#blog-news .blog_content .blog_content--top .tag { padding: 3px 5px; text-align: center; border-radius: 5px; }
 
-.link_retro {
-  background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center;
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  font-weight: bold;
-  border-radius: 3px;
-  transition: background 0.3s  ease-in; }
-  .link_retro:hover, .link_retro:focus {
-    background-position: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000380}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000382}}
+.services_content--title > h2 { font-size: 30px; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000386}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
 
-#blog-news .blog_content .blog_content--post p {
-  text-overflow: ellipsis; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003100}}
+.link_cta { width: 200px; height: 70px; padding: 1rem 0.5rem; border: 1px solid transparent; text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003107}}
+.link_retro { background: -webkit-gradient(linear, left top, right top, from(rgba(119, 136, 159, 0.2)), color-stop(50%, rgba(119, 136, 159, 0.2)), color-stop(50%, transparent), to(transparent)) no-repeat center; background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; font-weight: bold; border-radius: 3px; -webkit-transition: background 0.3s  ease-in; transition: background 0.3s  ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003114}}
+.link_retro:hover, .link_retro:focus { background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003149}}
+#blog-news .blog_content .blog_content--post p { text-overflow: ellipsis; }
 
 /*styles des entete Title des section*/
 /*ELEMENTS*/
 /*MODIFIER */
-.list-item--active {
-  background: none;
-  border: none; }
-  .list-item--active:before {
-    content: '';
-    background: url("../../assets/icone/check.svg") no-repeat center;
-    background-size: 25px 25px;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003294}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003299}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
 
-@keyframes arrow-swipe-right {
-  0% {
-    transform: translateX(0); }
-  35% {
-    transform: translateX(4px); }
-  50% {
-    transform: translateX(8px); }
-  75% {
-    transform: translateX(4px); }
-  100% {
-    transform: translateX(0); } }
-@keyframes arrow-swipe-left {
-  0% {
-    transform: translateX(0); }
-  35% {
-    transform: translateX(-4px); }
-  50% {
-    transform: translateX(-8px); }
-  75% {
-    transform: translateX(-4px); }
-  100% {
-    transform: translateX(0); } }
-@keyframes spinAround {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-@keyframes scale_updown {
-  0% {
-    transform: scale(1); }
-  50% {
-    transform: scale(1.07); }
-  100% {
-    transform: scale(1); } }
-.container-fluid {
-  padding-right: 0 !important;
-  padding-left: 0  !important; }
+@-webkit-keyframes arrow-swipe-right { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  35% { -webkit-transform: translateX(4px); transform: translateX(4px); }
+  50% { -webkit-transform: translateX(8px); transform: translateX(8px); }
+  75% { -webkit-transform: translateX(4px); transform: translateX(4px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
 
-.nav-tabs {
-  border: none; }
+@keyframes arrow-swipe-right { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  35% { -webkit-transform: translateX(4px); transform: translateX(4px); }
+  50% { -webkit-transform: translateX(8px); transform: translateX(8px); }
+  75% { -webkit-transform: translateX(4px); transform: translateX(4px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
 
-.nav-tabs .nav-link {
-  border: none !important;
-  border-radius: 0 !important; }
+@-webkit-keyframes arrow-swipe-left { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  35% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
+  50% { -webkit-transform: translateX(-8px); transform: translateX(-8px); }
+  75% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
 
-.nav-tabs > li > a {
-  border: none;
-  border-radius: 0 !important; }
+@keyframes arrow-swipe-left { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  35% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
+  50% { -webkit-transform: translateX(-8px); transform: translateX(-8px); }
+  75% { -webkit-transform: translateX(-4px); transform: translateX(-4px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background: none;
-  border: none; }
+@-webkit-keyframes spinAround { from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
 
-.nav-link.active {
-  background: none !important; }
+@keyframes spinAround { from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
 
-.tab-content .tab-pane {
-  position: relative; }
+@-webkit-keyframes scale_updown { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.07); transform: scale(1.07); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
 
-#top-bar {
-  width: 100%;
-  z-index: 400;
-  padding: 5px;
-  background-color: rgba(44, 49, 125, 0.6);
-  color: #fff;
-  min-height: 30px;
-  -webkit-transition: margin 0.15s ease-in-out;
-  -moz-transition: margin 0.15s ease-in-out;
-  -ms-transition: margin 0.15s ease-in-out;
-  -o-transition: margin 0.15s ease-in-out; }
-  #top-bar.off-view {
-    margin-top: -30px; }
-  #top-bar .content {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }
-    #top-bar .content .info-opening p {
-      display: inline-block;
-      font-size: 14px;
-      color: #fff;
-      text-decoration: underline;
-      margin: 0; }
-    #top-bar .content .info-contact {
-      display: inline-block; }
-      #top-bar .content .info-contact ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        padding-left: 0;
-        margin: 0; }
-        #top-bar .content .info-contact ul li:first-of-type {
-          margin-right: 1rem; }
-        #top-bar .content .info-contact ul li::before {
-          content: '';
-          display: inline-block;
-          width: 20px;
-          height: 20px;
-          background-size: 20px 20px;
-          margin-right: 6px;
-          vertical-align: middle; }
-        #top-bar .content .info-contact ul li.tel-contact::before {
-          background: url("../img/icon/tel-contact.svg") no-repeat center; }
-        #top-bar .content .info-contact ul li.mail-contact::before {
-          background: url("../img/icon/mail-contact.svg") no-repeat center; }
-        #top-bar .content .info-contact ul a {
-          color: #fff;
-          font-size: 14px;
-          font-weight: bold; }
+@keyframes scale_updown { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.07); transform: scale(1.07); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
 
-#back-to-top {
-  display: inline-block;
-  position: fixed;
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
-  bottom: 0;
-  left: -2%;
-  z-index: 1000;
-  background-color: #fff;
-  border: 1px solid transparent;
-  border-radius: 0 5px 5px 0;
-  -webkit-box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45);
-  -moz-box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45);
-  box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45);
-  opacity: 0;
-  transition: all 0.3s ease-in-out; }
-  #back-to-top a {
-    display: block;
-    text-align: center;
-    font-size: 1rem;
-    color: #333333; }
-  #back-to-top.shown {
-    opacity: 1; }
-  #back-to-top:hover, #back-to-top:focus {
-    left: 0; }
-    #back-to-top:hover a, #back-to-top:focus a {
-      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\000033}}
+.container-fluid { padding-right: 0 !important; padding-left: 0  !important; }
 
-#nav-solutions {
-  max-width: 100%;
-  position: sticky;
-  top: 0;
-  height: 65px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-  -webkit-box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45);
-  -moz-box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45);
-  box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45); }
-  #nav-solutions #nav-logiciels, #nav-solutions #nav-infra {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff; }
-    #nav-solutions #nav-logiciels li, #nav-solutions #nav-infra li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 8px;
-      height: 100%;
-      text-align: center; }
-      #nav-solutions #nav-logiciels li:not(:last-child), #nav-solutions #nav-infra li:not(:last-child) {
-        border-right: 1px solid #77889f; }
-      #nav-solutions #nav-logiciels li a, #nav-solutions #nav-infra li a {
-        color: #333333;
-        font-weight: bold;
-        font-size: 18px;
-        text-transform: uppercase; }
-        #nav-solutions #nav-logiciels li a span, #nav-solutions #nav-infra li a span {
-          font-style: italic; }
-      #nav-solutions #nav-logiciels li:hover, #nav-solutions #nav-logiciels li.active-nav, #nav-solutions #nav-infra li:hover, #nav-solutions #nav-infra li.active-nav {
-        background: #2c317d; }
-        #nav-solutions #nav-logiciels li:hover a, #nav-solutions #nav-logiciels li.active-nav a, #nav-solutions #nav-infra li:hover a, #nav-solutions #nav-infra li.active-nav a {
-          color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\000037}}
+.nav-tabs { border: none; }
 
-.services_content--title {
-  margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000310}}
+.nav-tabs .nav-link { border: none !important; border-radius: 0 !important; }
 
-.link_cta {
-  background: #2c317d;
-  color: #fff; }
-  .link_cta:hover, .link_cta:focus, .link_cta:active {
-    background: #fff;
-    border-color: currentColor;
-    color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000314}}
+.nav-tabs > li > a { border: none; border-radius: 0 !important; }
 
-.link_retro {
-  color: #2c317d; }
-  .link_retro:hover, .link_retro:focus, .link_retro:active {
-    color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000318}}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background: none; border: none; }
 
-#error-404 {
-  width: 100%;
-  min-height: 65vh;
-  background: url("../img/background/bg-404_banner.jpg") no-repeat center;
-  background-size: cover; }
-  #error-404 .img-404 {
-    max-width: 150px;
-    display: block; }
-  #error-404 h1 {
-    display: inline-block;
-    color: #fff;
-    font-size: 40px;
-    padding-bottom: 3px;
-    border-bottom: 2px dashed currentColor;
-    text-shadow: 1px 1px 5px rgba(51, 51, 51, 0.45); }
-  #error-404 .error-404_content p {
-    color: #333333;
-    font-size: 1rem;
-    margin: 1rem 0;
-    mix-blend-mode: multiply; }
-  #error-404 .error-404_content p:first-of-type::after {
-    content: '';
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    background: url("../img/icon/sad-smiley.svg") no-repeat center;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 0.5rem; }
-  #error-404 .form-block {
-    max-height: 50px;
-    display: flex;
-    margin: 1rem 0; }
-    #error-404 .form-block input[type='search'], #error-404 .form-block button {
-      border: none;
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out; }
-    #error-404 .form-block input[type='search'] {
-      max-width: 200px;
-      padding: 5px;
-      background: #fff;
-      color: #333333;
-      font-weight: bold;
-      box-shadow: inset 0 0 0 1px rgba(44, 49, 125, 0.75);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 5px; }
-      #error-404 .form-block input[type='search']:-webkit-placeholder-shown {
-        color: #77889f;
-        opacity: 0.75;
-        font-size: 1rem;
-        transition: all 0.2s ease-in-out; }
-      #error-404 .form-block input[type='search']:-moz-placeholder-shown {
-        color: #77889f;
-        opacity: 0.75;
-        font-size: 1rem;
-        transition: all 0.2s ease-in-out; }
-      #error-404 .form-block input[type='search']:-ms-placeholder-shown {
-        color: #77889f;
-        opacity: 0.75;
-        font-size: 1rem;
-        transition: all 0.2s ease-in-out; }
-    #error-404 .form-block button {
-      width: 50px;
-      background-color: #2c317d;
-      color: #fff;
-      font-weight: bold;
-      border-top-left-radius: 0;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 0;
-      border-color: transparent; }
-      #error-404 .form-block button:hover, #error-404 .form-block button:focus {
-        color: #2c317d; }
-  #error-404 .back-home {
-    width: 300px;
-    padding: 3px;
-    display: inline-block;
-    -webkit-box-shadow: 0 0 0 3px #fff;
-    -moz-box-shadow: 0 0 0 3px #fff;
-    box-shadow: 0 0 0 3px #fff;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 2px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    text-align: center; }
-    #error-404 .back-home:hover, #error-404 .back-home:focus {
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000322}}
+.nav-link.active { background: none !important; }
 
-@font-face {
-  font-family: "Segoe UI";
-  src: url("../../fonts/segoeui.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-.banner-top {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000326}}
+.tab-content .tab-pane { position: relative; }
 
-.banner-top h1 {
-  font-size: 40px;
-  color: #fff;
-  padding-bottom: 5px;
-  border-bottom: 3px solid currentColor;
-  text-shadow: 1px 1px 1px #333333;
-  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\000032}}
+#top-bar { width: 100%; z-index: 400; padding: 5px; background-color: rgba(44, 49, 125, 0.6); color: white; min-height: 30px; -webkit-transition: margin 0.15s ease-in-out; -moz-transition: margin 0.15s ease-in-out; -ms-transition: margin 0.15s ease-in-out; -o-transition: margin 0.15s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000311}}
+#top-bar.off-view { margin-top: -30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000315}}
+#top-bar .content { height: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000319}}
+#top-bar .content .info-opening p { display: inline-block; font-size: 14px; color: white; text-decoration: underline; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000328}}
+#top-bar .content .info-contact { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000330}}
+#top-bar .content .info-contact ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-left: 0; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000335}}
+#top-bar .content .info-contact ul li:first-of-type { margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000338}}
+#top-bar .content .info-contact ul li::before { content: ''; display: inline-block; width: 20px; height: 20px; background-size: 20px 20px; margin-right: 6px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000346}}
+#top-bar .content .info-contact ul li.tel-contact::before { background: url("../img/icon/tel-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000351}}
+#top-bar .content .info-contact ul li.mail-contact::before { background: url("../img/icon/mail-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000356}}
+#top-bar .content .info-contact ul a { color: white; font-size: 14px; font-weight: bold; }
 
-#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news {
-  padding: 15px 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000374}}
+#back-to-top { display: inline-block; position: fixed; width: 100px; height: 50px; line-height: 50px; bottom: 0; left: -2%; z-index: 1000; background-color: white; border: 1px solid transparent; border-radius: 0 5px 5px 0; -webkit-box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45); box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45); opacity: 0; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000389}}
+#back-to-top a { display: block; text-align: center; font-size: 1rem; color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000395}}
+#back-to-top.shown { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000398}}
+#back-to-top:hover, #back-to-top:focus { left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003101}}
+#back-to-top:hover a, #back-to-top:focus a { color: white; }
 
-#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003113}}
+#nav-solutions { max-width: 100%; position: -webkit-sticky; position: sticky; top: 0; height: 65px; padding: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; z-index: 2000; -webkit-box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45); box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003126}}
+#nav-solutions #nav-logiciels, #nav-solutions #nav-infra { width: 100%; height: 100%; margin-bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003134}}
+#nav-solutions #nav-logiciels li, #nav-solutions #nav-infra li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 8px; height: 100%; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003141}}
+#nav-solutions #nav-logiciels li:not(:last-child), #nav-solutions #nav-infra li:not(:last-child) { border-right: 1px solid #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003145}}
+#nav-solutions #nav-logiciels li a, #nav-solutions #nav-infra li a { color: #333333; font-weight: bold; font-size: 18px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003151}}
+#nav-solutions #nav-logiciels li a span, #nav-solutions #nav-infra li a span { font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003156}}
+#nav-solutions #nav-logiciels li:hover, #nav-solutions #nav-logiciels li.active-nav, #nav-solutions #nav-infra li:hover, #nav-solutions #nav-infra li.active-nav { background: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003158}}
+#nav-solutions #nav-logiciels li:hover a, #nav-solutions #nav-logiciels li.active-nav a, #nav-solutions #nav-infra li:hover a, #nav-solutions #nav-infra li.active-nav a { color: white; }
 
-.more {
-  position: relative;
-  color: #2c317d; }
-  .more::after {
-    content: '';
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: currentColor;
-    transition: width 0.1s ease-in; }
-  .more:hover::after {
-    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003191}}
+.services_content--title { margin-bottom: 1rem; }
 
-#blog-news .blog_content .blog_content--top .tag {
-  padding: 3px 5px;
-  text-align: center;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003198}}
+.link_cta { background: #2c317d; color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003202}}
+.link_cta:hover, .link_cta:focus, .link_cta:active { background: white; border-color: currentColor; color: #2c317d; }
 
-.services_content--title {
-  display: inline-block; }
-  .services_content--title > h2 {
-    font-size: 30px;
-    color: #2c317d; }
-  .services_content--title > h3 {
-    font-size: 22px;
-    color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003208}}
+.link_retro { color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003211}}
+.link_retro:hover, .link_retro:focus, .link_retro:active { color: #333333; }
 
-.link_cta {
-  width: 200px;
-  height: 70px;
-  padding: 1rem 0.5rem;
-  border: 1px solid transparent;
-  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003217}}
+#error-404 { width: 100%; min-height: 65vh; background: url("../img/background/bg-404_banner.jpg") no-repeat center; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003228}}
+#error-404 .img-404 { max-width: 150px; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003232}}
+#error-404 h1 { display: inline-block; color: white; font-size: 40px; padding-bottom: 3px; border-bottom: 2px dashed currentColor; text-shadow: 1px 1px 5px rgba(51, 51, 51, 0.45); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003242}}
+#error-404 .error-404_content p { color: #333333; font-size: 1rem; margin: 1rem 0; mix-blend-mode: multiply; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003248}}
+#error-404 .error-404_content p:first-of-type::after { content: ''; width: 30px; height: 30px; background-size: 30px 30px; background: url("../img/icon/sad-smiley.svg") no-repeat center; display: inline-block; vertical-align: middle; margin-left: 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003257}}
+#error-404 .form-block { max-height: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 1rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003262}}
+#error-404 .form-block input[type='search'], #error-404 .form-block button { border: none; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003267}}
+#error-404 .form-block input[type='search'] { max-width: 200px; padding: 5px; background: white; color: #333333; font-weight: bold; -webkit-box-shadow: inset 0 0 0 1px rgba(44, 49, 125, 0.75); box-shadow: inset 0 0 0 1px rgba(44, 49, 125, 0.75); border-top-left-radius: 5px; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_mixins\.scss}line{font-family:\00003102}}
+#error-404 .form-block input[type='search']:-webkit-placeholder-shown { color: #77889f; opacity: 0.75; font-size: 1rem; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_mixins\.scss}line{font-family:\00003108}}
+#error-404 .form-block input[type='search']:-moz-placeholder-shown { color: #77889f; opacity: 0.75; font-size: 1rem; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_mixins\.scss}line{font-family:\00003114}}
+#error-404 .form-block input[type='search']:-ms-placeholder-shown { color: #77889f; opacity: 0.75; font-size: 1rem; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003280}}
+#error-404 .form-block button { width: 50px; background-color: #2c317d; color: white; font-weight: bold; border-top-left-radius: 0; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 0; border-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003287}}
+#error-404 .form-block button:hover, #error-404 .form-block button:focus { color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003293}}
+#error-404 .back-home { width: 300px; padding: 3px; display: inline-block; -webkit-box-shadow: 0 0 0 3px white; box-shadow: 0 0 0 3px white; text-transform: uppercase; color: white; letter-spacing: 2px; border-radius: 5px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003304}}
+#error-404 .back-home:hover, #error-404 .back-home:focus { -webkit-background-clip: text; background-clip: text; color: transparent; background-color: white; }
 
-.link_retro {
-  background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center;
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  font-weight: bold;
-  border-radius: 3px;
-  transition: background 0.3s  ease-in; }
-  .link_retro:hover, .link_retro:focus {
-    background-position: 0 0; }
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-#blog-news .blog_content .blog_content--post p {
-  text-overflow: ellipsis; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000336}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news { padding: 15px 10px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000348}}
+#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li { border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000351}}
+.more { position: relative; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000354}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000365}}
+.more:hover::after { width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+#blog-news .blog_content .blog_content--top .tag { padding: 3px 5px; text-align: center; border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000380}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000382}}
+.services_content--title > h2 { font-size: 30px; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000386}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003100}}
+.link_cta { width: 200px; height: 70px; padding: 1rem 0.5rem; border: 1px solid transparent; text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003107}}
+.link_retro { background: -webkit-gradient(linear, left top, right top, from(rgba(119, 136, 159, 0.2)), color-stop(50%, rgba(119, 136, 159, 0.2)), color-stop(50%, transparent), to(transparent)) no-repeat center; background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; font-weight: bold; border-radius: 3px; -webkit-transition: background 0.3s  ease-in; transition: background 0.3s  ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003114}}
+.link_retro:hover, .link_retro:focus { background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003149}}
+#blog-news .blog_content .blog_content--post p { text-overflow: ellipsis; }
 
 /*styles des entete Title des section*/
 /*ELEMENTS*/
 /*MODIFIER */
-.list-item--active {
-  background: none;
-  border: none; }
-  .list-item--active:before {
-    content: '';
-    background: url("../../assets/icone/check.svg") no-repeat center;
-    background-size: 25px 25px;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003294}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003299}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
 
-#main-header {
-  min-height: 90px;
-  padding: 5px 0;
-  top: 0;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); }
-  #main-header.fixed-top {
-    position: fixed;
-    width: 100%;
-    z-index: 999; }
-  #main-header .logo-brand img {
-    width: 150px;
-    max-width: 170px;
-    height: auto;
-    object-fit: cover;
-    margin-right: 0; }
-  #main-header #contact ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-left: 0;
-    margin: 0; }
-    #main-header #contact ul li::before {
-      content: '';
-      display: inline-block;
-      width: 14px;
-      height: 14px;
-      background-size: 14px 14px;
-      margin-right: 8px;
-      vertical-align: middle; }
-    #main-header #contact ul li.tel-contact::before {
-      background: url("../img/icon/tel-contact.svg") no-repeat center; }
-    #main-header #contact ul li.mail-contact::before {
-      background: url("../img/icon/mail-contact.svg") no-repeat center; }
-    #main-header #contact ul a {
-      color: #77889f;
-      font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\000033}}
+#main-header { min-height: 90px; padding: 5px 0; top: 0; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: white; -webkit-box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000312}}
+#main-header.fixed-top { position: fixed; width: 100%; z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000319}}
+#main-header .logo-brand img { width: 150px; max-width: 170px; height: auto; -o-object-fit: cover; object-fit: cover; margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000329}}
+#main-header #contact ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-left: 0; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000334}}
+#main-header #contact ul li::before { content: ''; display: inline-block; width: 14px; height: 14px; background-size: 14px 14px; margin-right: 8px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000342}}
+#main-header #contact ul li.tel-contact::before { background: url("../img/icon/tel-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000347}}
+#main-header #contact ul li.mail-contact::before { background: url("../img/icon/mail-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000352}}
+#main-header #contact ul a { color: #77889f; font-size: 14px; }
 
-#main-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  #main-nav ul li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex: 2 0 auto;
-    margin: 0 5px;
-    background-color: transparent;
-    text-align: center; }
-    #main-nav ul li.dropdown {
-      flex-direction: column; }
-      #main-nav ul li.dropdown .dropdown-menu {
-        position: absolute;
-        z-index: 5000;
-        margin-top: 0;
-        padding: 2px 0;
-        color: #333333; }
-    #main-nav ul li a {
-      display: block;
-      color: #77889f;
-      padding: 5px;
-      font-size: 14px;
-      background: linear-gradient(to right, rgba(44, 49, 125, 0.5) 0%, rgba(44, 49, 125, 0.5) 50%, transparent 50%, transparent 50%) no-repeat center;
-      background-size: 200% 100%;
-      background-position: 100% 0;
-      border-radius: 0 5px 5px 0;
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out; }
-      #main-nav ul li a:first-letter {
-        text-transform: uppercase; }
-      #main-nav ul li a.dropdown-item {
-        margin: 4px 0;
-        border-radius: 0; }
-      #main-nav ul li a:hover, #main-nav ul li a:focus, #main-nav ul li a.active-nav-item {
-        color: #fff;
-        background-position: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000364}}
+#main-nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000367}}
+#main-nav ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-flex: 2; -ms-flex: 2 0 auto; flex: 2 0 auto; margin: 0 5px; background-color: transparent; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000376}}
+#main-nav ul li.dropdown { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000378}}
+#main-nav ul li.dropdown .dropdown-menu { position: absolute; z-index: 5000; margin-top: 0; padding: 2px 0; color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000387}}
+#main-nav ul li a { display: block; color: #77889f; padding: 5px; font-size: 14px; background: -webkit-gradient(linear, left top, right top, from(rgba(44, 49, 125, 0.5)), color-stop(50%, rgba(44, 49, 125, 0.5)), color-stop(50%, transparent), color-stop(50%, transparent)) no-repeat center; background: linear-gradient(to right, rgba(44, 49, 125, 0.5) 0%, rgba(44, 49, 125, 0.5) 50%, transparent 50%, transparent 50%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; border-radius: 0 5px 5px 0; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000398}}
+#main-nav ul li a:first-letter { text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003101}}
+#main-nav ul li a.dropdown-item { margin: 4px 0; border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003106}}
+#main-nav ul li a:hover, #main-nav ul li a:focus, #main-nav ul li a.active-nav-item { color: white; background-position: 0 0; }
 
-.espace-client {
-  width: 100px;
-  line-height: 30px;
-  background-color: #2c317d;
-  border: 1px solid transparent; }
-  .espace-client a {
-    display: block;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -ms-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out; }
-  .espace-client:hover, .espace-client:focus, .espace-client:active {
-    background-color: #fff;
-    border-color: #2c317d; }
-    .espace-client:hover a, .espace-client:focus a, .espace-client:active a {
-      color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003116}}
+.espace-client { width: 100px; line-height: 30px; background-color: #2c317d; border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003122}}
+.espace-client a { display: block; color: white; font-size: 14px; font-weight: 700; text-align: center; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003131}}
+.espace-client:hover, .espace-client:focus, .espace-client:active { background-color: white; border-color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003134}}
+.espace-client:hover a, .espace-client:focus a, .espace-client:active a { color: #2c317d; }
 
-button.toggle-search {
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  background: url("../img/icon/loupe.svg") no-repeat center;
-  border: none;
-  -webkit-transition: all 0.05s ease-in-out;
-  -moz-transition: all 0.05s ease-in-out;
-  -ms-transition: all 0.05s ease-in-out;
-  -o-transition: all 0.05s ease-in-out;
-  cursor: pointer; }
-  button.toggle-search.active-search {
-    background: url("../img/icon/close-black.svg") no-repeat center;
-    background-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003142}}
+button.toggle-search { width: 30px; height: 30px; background-size: 30px 30px; background: url("../img/icon/loupe.svg") no-repeat center; border: none; -webkit-transition: all 0.05s ease-in-out; -moz-transition: all 0.05s ease-in-out; -ms-transition: all 0.05s ease-in-out; -o-transition: all 0.05s ease-in-out; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003148}}
+button.toggle-search.active-search { background: url("../img/icon/close-black.svg") no-repeat center; background-size: 18px; }
 
-#search-bar {
-  position: absolute;
-  top: 100%;
-  right: 20%;
-  max-width: 200px;
-  display: none;
-  min-height: 15vh;
-  background-color: #fff;
-  box-shadow: inset 0 3px 0 #2c317d;
-  padding: 5px;
-  z-index: 9999;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  -webkit-transition: width 0.1s ease-in;
-  -moz-transition: width 0.1s ease-in;
-  -ms-transition: width 0.1s ease-in;
-  -o-transition: width 0.1s ease-in; }
-  #search-bar input[type="search"] {
-    width: 70%;
-    height: 35px;
-    border: none;
-    outline: 2px solid rgba(119, 136, 159, 0.45);
-    background: transparent !important;
-    padding: 3px 24px 3px 6px;
-    font-size: 14px;
-    color: #333333;
-    font-weight: bold;
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -ms-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out; }
-    #search-bar input[type="search"]::placeholder {
-      color: rgba(51, 51, 51, 0.35);
-      font-size: 12px;
-      transition: all 0.2s ease-in-out; }
-    #search-bar input[type="search"]:focus {
-      width: 80%;
-      outline-color: rgba(44, 49, 125, 0.85);
-      padding-right: 33px; }
-  #search-bar button[type="submit"] {
-    position: absolute;
-    right: 18%;
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
-    background: url("../img/icon/loupe.svg") no-repeat center;
-    border: none;
-    cursor: pointer; }
-  #search-bar:focus-within input[type="search"] {
-    width: 80%;
-    outline-color: rgba(44, 49, 125, 0.85);
-    padding-right: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003155}}
+#search-bar { position: absolute; top: 100%; right: 20%; max-width: 200px; display: none; min-height: 15vh; background-color: white; -webkit-box-shadow: inset 0 3px 0 #2c317d; box-shadow: inset 0 3px 0 #2c317d; padding: 5px; z-index: 9999; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: width 0.1s ease-in; -moz-transition: width 0.1s ease-in; -ms-transition: width 0.1s ease-in; -o-transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003173}}
+#search-bar input[type="search"] { width: 70%; height: 35px; border: none; outline: 2px solid rgba(119, 136, 159, 0.45); background: transparent !important; padding: 3px 24px 3px 6px; font-size: 14px; color: #333333; font-weight: bold; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_mixins\.scss}line{font-family:\0000395}}
+#search-bar input[type="search"]::-webkit-input-placeholder { color: rgba(51, 51, 51, 0.35); font-size: 12px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#search-bar input[type="search"]:-ms-input-placeholder { color: rgba(51, 51, 51, 0.35); font-size: 12px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#search-bar input[type="search"]::-ms-input-placeholder { color: rgba(51, 51, 51, 0.35); font-size: 12px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#search-bar input[type="search"]::placeholder { color: rgba(51, 51, 51, 0.35); font-size: 12px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003192}}
+#search-bar input[type="search"]:focus { width: 80%; outline-color: rgba(44, 49, 125, 0.85); padding-right: 33px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003199}}
+#search-bar button[type="submit"] { position: absolute; right: 18%; width: 20px; height: 20px; background-size: 20px 20px; background: url("../img/icon/loupe.svg") no-repeat center; border: none; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003209}}
+#search-bar:focus-within input[type="search"] { width: 80%; outline-color: rgba(44, 49, 125, 0.85); padding-right: 30px; }
 
-.to-contact {
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  background: url("../img/icon/contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003221}}
+.to-contact { width: 30px; height: 30px; background-size: 30px 30px; background: url("../img/icon/contact.svg") no-repeat center; }
 
-@font-face {
-  font-family: "Segoe UI";
-  src: url("../../fonts/segoeui.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-.banner-top {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-.banner-top h1 {
-  font-size: 40px;
-  color: #fff;
-  padding-bottom: 5px;
-  border-bottom: 3px solid currentColor;
-  text-shadow: 1px 1px 1px #333333;
-  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news {
-  padding: 15px 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000336}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
 
-#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+#main-footer, #main-presentation, #solutions-presentation, #solutions-infra, #services, #blog-news { padding: 15px 10px 20px; }
 
-.more {
-  position: relative;
-  color: #2c317d; }
-  .more::after {
-    content: '';
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: currentColor;
-    transition: width 0.1s ease-in; }
-  .more:hover::after {
-    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000348}}
+#main-nav ul li, .espace-client, #solutions-presentation .solutions-slider .slick-track .card-container, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type, #services .list-services li { border-radius: 5px; }
 
-#blog-news .blog_content .blog_content--top .tag {
-  padding: 3px 5px;
-  text-align: center;
-  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000351}}
+.more { position: relative; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000354}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000365}}
+.more:hover::after { width: 100%; }
 
-.services_content--title {
-  display: inline-block; }
-  .services_content--title > h2 {
-    font-size: 30px;
-    color: #2c317d; }
-  .services_content--title > h3 {
-    font-size: 22px;
-    color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+#blog-news .blog_content .blog_content--top .tag { padding: 3px 5px; text-align: center; border-radius: 5px; }
 
-.link_cta {
-  width: 200px;
-  height: 70px;
-  padding: 1rem 0.5rem;
-  border: 1px solid transparent;
-  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000380}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000382}}
+.services_content--title > h2 { font-size: 30px; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000386}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
 
-.link_retro {
-  background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center;
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  font-weight: bold;
-  border-radius: 3px;
-  transition: background 0.3s  ease-in; }
-  .link_retro:hover, .link_retro:focus {
-    background-position: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003100}}
+.link_cta { width: 200px; height: 70px; padding: 1rem 0.5rem; border: 1px solid transparent; text-align: center; }
 
-#blog-news .blog_content .blog_content--post p {
-  text-overflow: ellipsis; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003107}}
+.link_retro { background: -webkit-gradient(linear, left top, right top, from(rgba(119, 136, 159, 0.2)), color-stop(50%, rgba(119, 136, 159, 0.2)), color-stop(50%, transparent), to(transparent)) no-repeat center; background: linear-gradient(to right, rgba(119, 136, 159, 0.2) 0%, rgba(119, 136, 159, 0.2) 50%, transparent 50%, transparent 100%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; font-weight: bold; border-radius: 3px; -webkit-transition: background 0.3s  ease-in; transition: background 0.3s  ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003114}}
+.link_retro:hover, .link_retro:focus { background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003149}}
+#blog-news .blog_content .blog_content--post p { text-overflow: ellipsis; }
 
 /*styles des entete Title des section*/
 /*ELEMENTS*/
 /*MODIFIER */
-.list-item--active {
-  background: none;
-  border: none; }
-  .list-item--active:before {
-    content: '';
-    background: url("../../assets/icone/check.svg") no-repeat center;
-    background-size: 25px 25px;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003294}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003299}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
 
-#main-footer {
-  position: relative;
-  padding-bottom: 5px;
-  background: url("../img/background/geoloc2.jpg") no-repeat right center, #2c317d;
-  background-size: 35% auto, 100%; }
-  #main-footer img {
-    width: 170px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000033}}
+#main-footer { position: relative; padding-bottom: 5px; background: url("../img/background/geoloc2.jpg") no-repeat right center, #2c317d; background-size: 35% auto, 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000314}}
+#main-footer img { width: 170px; }
 
-.main-footer_brand {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 1rem; }
-  .main-footer_brand img {
-    width: 300px; }
-  .main-footer_brand .sub-nav_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex: 0 1 65%; }
-    .main-footer_brand .sub-nav_container ul {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start; }
-      .main-footer_brand .sub-nav_container ul .sub-nav_col {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start; }
-        .main-footer_brand .sub-nav_container ul .sub-nav_col ul {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start; }
-        .main-footer_brand .sub-nav_container ul .sub-nav_col li {
-          display: flex;
-          flex-direction: column;
-          margin: 5px 0; }
-          .main-footer_brand .sub-nav_container ul .sub-nav_col li a {
-            color: #fff; }
-            .main-footer_brand .sub-nav_container ul .sub-nav_col li a:hover, .main-footer_brand .sub-nav_container ul .sub-nav_col li a:focus {
-              text-decoration: underline; }
-  .main-footer_brand h2 {
-    font-size: 25px;
-    color: #fff;
-    text-decoration: underline;
-    margin-bottom: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000319}}
+.main-footer_brand { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000323}}
+.main-footer_brand img { width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000326}}
+.main-footer_brand .sub-nav_container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-flex: 0; -ms-flex: 0 1 65%; flex: 0 1 65%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000329}}
+.main-footer_brand .sub-nav_container ul { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000332}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000334}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000337}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000341}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li a { color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000343}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li a:hover, .main-footer_brand .sub-nav_container ul .sub-nav_col li a:focus { text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000351}}
+.main-footer_brand h2 { font-size: 25px; color: white; text-decoration: underline; margin-bottom: 1.5rem; }
 
-.main-footer_social-network {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
-  .main-footer_social-network nav, .main-footer_social-network ul {
-    width: 100%; }
-  .main-footer_social-network .social-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
-  .main-footer_social-network .social-nav img {
-    max-width: 75px;
-    filter: drop-shadow(1px 1px 2px #333333); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000359}}
+.main-footer_social-network { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000361}}
+.main-footer_social-network nav, .main-footer_social-network ul { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000366}}
+.main-footer_social-network .social-nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000369}}
+.main-footer_social-network .social-nav img { max-width: 75px; -webkit-filter: drop-shadow(1px 1px 2px #333333); filter: drop-shadow(1px 1px 2px #333333); }
 
-.brand_coord {
-  position: absolute;
-  right: 10px;
-  bottom: 15px;
-  width: calc(33% - 20px);
-  max-width: 500px;
-  background: #fff;
-  padding: 8px 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  -webkit-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55);
-  -moz-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55);
-  box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55);
-  perspective: 800px;
-  transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in;
-  will-change: transform; }
-  .brand_coord .brand_name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start; }
-    .brand_coord .brand_name h2 {
-      font-size: 16px;
-      color: #2c317d;
-      font-weight: bold;
-      margin-bottom: 5px;
-      line-height: 16px; }
-    .brand_coord .brand_name span:first-of-type {
-      font-size: 14px; }
-  .brand_coord .brand_adress {
-    display: inline-block; }
-    .brand_coord .brand_adress ul {
-      margin-bottom: 0; }
-      .brand_coord .brand_adress ul li {
-        font-size: 12px;
-        line-height: 1.15;
-        color: #77889f; }
-  .brand_coord .brand_contact {
-    display: flex;
-    flex-direction: column; }
-    .brand_coord .brand_contact a {
-      color: #77889f;
-      font-size: 12px; }
-  .brand_coord:hover, .brand_coord:focus, .brand_coord.active-coord {
-    outline: 2px solid rgba(44, 49, 125, 0.35); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000379}}
+.brand_coord { position: absolute; right: 10px; bottom: 15px; width: calc(33% - 20px); max-width: 500px; background: white; padding: 8px 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); -webkit-perspective: 800px; perspective: 800px; -webkit-transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in, -webkit-transform 0.45s ease-in; will-change: transform; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000393}}
+.brand_coord .brand_name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000395}}
+.brand_coord .brand_name h2 { font-size: 16px; color: #2c317d; font-weight: bold; margin-bottom: 5px; line-height: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003102}}
+.brand_coord .brand_name span:first-of-type { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003106}}
+.brand_coord .brand_adress { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003108}}
+.brand_coord .brand_adress ul { margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003110}}
+.brand_coord .brand_adress ul li { font-size: 12px; line-height: 1.15; color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003118}}
+.brand_coord .brand_contact { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003121}}
+.brand_coord .brand_contact a { color: #77889f; font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003128}}
+.brand_coord:hover, .brand_coord:focus, .brand_coord.active-coord { outline: 2px solid rgba(44, 49, 125, 0.35); }
 
-#sub-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center; }
-  #sub-footer ul li {
-    margin: 0 8px; }
-    #sub-footer ul li a {
-      color: #fff;
-      font-size: 12px; }
-      #sub-footer ul li a .copyright {
-        font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003139}}
+#sub-footer ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003141}}
+#sub-footer ul li { margin: 0 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003143}}
+#sub-footer ul li a { color: white; font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003146}}
+#sub-footer ul li a .copyright { font-style: italic; }
 
-#main-presentation {
-  min-height: 350px;
-  background: linear-gradient(to right, rgba(44, 49, 125, 0.45), rgba(44, 49, 125, 0.45)), url("../img/background/bg-home_banner.png") no-repeat center;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000314}}
+#main-presentation { min-height: 350px; background: -webkit-gradient(linear, left top, right top, from(rgba(44, 49, 125, 0.45)), to(rgba(44, 49, 125, 0.45))), url("../img/background/bg-home_banner.png") no-repeat center; background: linear-gradient(to right, rgba(44, 49, 125, 0.45), rgba(44, 49, 125, 0.45)), url("../img/background/bg-home_banner.png") no-repeat center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.main-presentation_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start; }
-  .main-presentation_content h1 {
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 1rem; }
-  .main-presentation_content p {
-    font-size: 18px;
-    color: #fff; }
-  .main-presentation_content .slick-dots:last-child {
-    position: static;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem; }
-    .main-presentation_content .slick-dots:last-child > li {
-      width: 70px;
-      height: 18px; }
-      .main-presentation_content .slick-dots:last-child > li.slick-active button[role="tab"] {
-        opacity: 1; }
-    .main-presentation_content .slick-dots:last-child > li:not(:last-of-type) {
-      margin-right: 10px; }
-  .main-presentation_content .slick-dots li button[role="tab"] {
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    opacity: 0.30;
-    border-radius: 5px; }
-    .main-presentation_content .slick-dots li button[role="tab"]:hover, .main-presentation_content .slick-dots li button[role="tab"]:focus {
-      opacity: 1; }
-    .main-presentation_content .slick-dots li button[role="tab"]:before {
-      content: ' '; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000321}}
+.main-presentation_content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000323}}
+.main-presentation_content h1 { font-size: 40px; color: white; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000328}}
+.main-presentation_content p { font-size: 18px; color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000334}}
+.main-presentation_content .slick-dots:last-child { position: static; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000340}}
+.main-presentation_content .slick-dots:last-child > li { width: 70px; height: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000346}}
+.main-presentation_content .slick-dots:last-child > li.slick-active button[role="tab"] { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000352}}
+.main-presentation_content .slick-dots:last-child > li:not(:last-of-type) { margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000357}}
+.main-presentation_content .slick-dots li button[role="tab"] { width: 100%; height: 100%; background: white; opacity: 0.30; border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000364}}
+.main-presentation_content .slick-dots li button[role="tab"]:hover, .main-presentation_content .slick-dots li button[role="tab"]:focus { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000367}}
+.main-presentation_content .slick-dots li button[role="tab"]:before { content: ' '; }
 
-#solutions-presentation {
-  background: #eaf3ff;
-  overflow: hidden; }
-  #solutions-presentation .slider-nav-switch {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 1rem; }
-    #solutions-presentation .slider-nav-switch li {
-      width: 50px;
-      height: 50px;
-      list-style-type: none;
-      border-radius: 50%;
-      background-color: #2c317d;
-      box-shadow: 0 0 0 2px #fff, 0px 0px 3px rgba(51, 51, 51, 0.55);
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out;
-      text-align: center;
-      font-size: 2rem;
-      color: #fff; }
-      #solutions-presentation .slider-nav-switch li:focus, #solutions-presentation .slider-nav-switch li:hover {
-        cursor: pointer;
-        background-color: #fff;
-        box-shadow: 2px 2px 6px #333333;
-        transform: translateY(-5px);
-        color: #2c317d; }
-        #solutions-presentation .slider-nav-switch li:focus .fa-angle-right, #solutions-presentation .slider-nav-switch li:hover .fa-angle-right {
-          animation: arrow-swipe-right 1.15s linear infinite alternate; }
-        #solutions-presentation .slider-nav-switch li:focus .fa-angle-left, #solutions-presentation .slider-nav-switch li:hover .fa-angle-left {
-          animation: arrow-swipe-left 1.15s linear infinite alternate; }
-      #solutions-presentation .slider-nav-switch li:last-of-type {
-        margin-left: 1.25rem; }
-  #solutions-presentation .solutions-slider {
-    justify-content: space-between;
-    width: 100%; }
-    #solutions-presentation .solutions-slider .slick-track .card-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 1rem;
-      padding: 10px 0;
-      background: #fff;
-      perspective: 800px;
-      -webkit-box-shadow: 0 2px 4px rgba(51, 51, 51, 0.55);
-      -moz-box-shadow: 0 2px 4px rgba(51, 51, 51, 0.55);
-      box-shadow: 0 2px 4px rgba(51, 51, 51, 0.55);
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out; }
-      #solutions-presentation .solutions-slider .slick-track .card-container .logo-brand-solutions {
-        width: 190px; }
-      #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        -webkit-box-shadow: 0 -1px 0 #77889f;
-        -moz-box-shadow: 0 -1px 0 #77889f;
-        box-shadow: 0 -1px 0 #77889f;
-        padding: 8px;
-        margin-top: 10px;
-        overflow: hidden; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .thumb {
-          width: 150px;
-          height: 150px;
-          align-self: center;
-          margin-bottom: 1rem;
-          outline: 2px dashed red;
-          background-color: #eaf3ff; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content h2 {
-          margin: 1rem 0;
-          font-size: 30px;
-          color: #77889f; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content p {
-          line-height: 1.1; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight {
-          position: absolute;
-          top: 0;
-          left: 100%;
-          bottom: 0;
-          height: 100%;
-          width: 0;
-          padding: 5px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: flex-start;
-          background-color: #2c317d;
-          color: #fff;
-          transition: all 0.15s ease-in-out, opacity 0.1s linear; }
-          #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight h3 {
-            color: #fff;
-            font-size: 22px;
-            text-align: center;
-            opacity: 0; }
-          #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding-left: 0;
-            opacity: 0; }
-            #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul li {
-              margin: 3px 0; }
-              #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul li::before {
-                content: ' ';
-                display: inline-block;
-                width: 16px;
-                height: 16px;
-                background-size: 16px 16px;
-                background: url("../img/icon/check-list.svg") no-repeat center;
-                vertical-align: middle;
-                margin-right: 10px; }
-            #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul + a.link-follow {
-              color: #fff;
-              opacity: 0; }
-              #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul + a.link-follow::after {
-                content: ' ';
-                display: inline-block;
-                width: 16px;
-                height: 16px;
-                background-size: 16px 16px;
-                background: url("../img/icon/right-arrow-blanc.svg") no-repeat center;
-                vertical-align: middle;
-                margin-left: 10px; }
-          #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight {
-            width: 100%;
-            padding: 1rem 5px 5px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            -webkit-box-shadow: 0 -1px 0 #fff;
-            -moz-box-shadow: 0 -1px 0 #fff;
-            box-shadow: 0 -1px 0 #fff;
-            opacity: 0; }
-            #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight > span:first-of-type {
-              position: relative;
-              font-weight: 700; }
-              #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight > span:first-of-type::before {
-                content: 'à partir';
-                display: inline-block;
-                position: absolute;
-                top: -50%;
-                left: 0;
-                height: 15px;
-                line-height: 1;
-                font-size: 0.65rem;
-                font-style: italic; }
-            #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight .cta-link {
-              font-size: 18px;
-              color: #fff;
-              font-weight: 700;
-              text-decoration: underline; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight {
-          width: 100%;
-          left: 0; }
-          #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight h3, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight ul, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight a, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight .card-container_bottom--highlight {
-            opacity: 1; }
-      #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom {
-        width: 100%;
-        padding: 5px 10px;
-        -webkit-box-shadow: 0 -1px 0 #77889f;
-        -moz-box-shadow: 0 -1px 0 #77889f;
-        box-shadow: 0 -1px 0 #77889f;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type {
-          width: 60px;
-          height: 25px;
-          line-height: 25px;
-          color: #333333;
-          font-weight: bold;
-          text-align: center;
-          margin-right: 6px;
-          background-color: transparent;
-          border: 1px solid #333333; }
-        #solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:last-of-type {
-          color: #2c317d;
-          font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003102}}
+#solutions-presentation { background: #eaf3ff; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003108}}
+#solutions-presentation .slider-nav-switch { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003111}}
+#solutions-presentation .slider-nav-switch li { width: 50px; height: 50px; list-style-type: none; border-radius: 50%; background-color: #2c317d; -webkit-box-shadow: 0 0 0 2px white, 0px 0px 3px rgba(51, 51, 51, 0.55); box-shadow: 0 0 0 2px white, 0px 0px 3px rgba(51, 51, 51, 0.55); -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; text-align: center; font-size: 2rem; color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003126}}
+#solutions-presentation .slider-nav-switch li:focus, #solutions-presentation .slider-nav-switch li:hover { cursor: pointer; background-color: white; -webkit-box-shadow: 2px 2px 6px #333333; box-shadow: 2px 2px 6px #333333; -webkit-transform: translateY(-5px); transform: translateY(-5px); color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003134}}
+#solutions-presentation .slider-nav-switch li:focus .fa-angle-right, #solutions-presentation .slider-nav-switch li:hover .fa-angle-right { -webkit-animation: arrow-swipe-right 1.15s linear infinite alternate; animation: arrow-swipe-right 1.15s linear infinite alternate; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003137}}
+#solutions-presentation .slider-nav-switch li:focus .fa-angle-left, #solutions-presentation .slider-nav-switch li:hover .fa-angle-left { -webkit-animation: arrow-swipe-left 1.15s linear infinite alternate; animation: arrow-swipe-left 1.15s linear infinite alternate; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003141}}
+#solutions-presentation .slider-nav-switch li:last-of-type { margin-left: 1.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003148}}
+#solutions-presentation .solutions-slider { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003157}}
+#solutions-presentation .solutions-slider .slick-track .card-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 1rem; padding: 10px 0; background: white; -webkit-perspective: 800px; perspective: 800px; -webkit-box-shadow: 0 2px 4px rgba(51, 51, 51, 0.55); box-shadow: 0 2px 4px rgba(51, 51, 51, 0.55); -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003169}}
+#solutions-presentation .solutions-slider .slick-track .card-container .logo-brand-solutions { width: 190px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003173}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-shadow: 0 -1px 0 #77889f; box-shadow: 0 -1px 0 #77889f; padding: 8px; margin-top: 10px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003181}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .thumb { width: 150px; height: 150px; -ms-flex-item-align: center; align-self: center; margin-bottom: 1rem; outline: 2px dashed red; background-color: #eaf3ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003190}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content h2 { margin: 1rem 0; font-size: 30px; color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003195}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content p { line-height: 1.1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003200}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight { position: absolute; top: 0; left: 100%; bottom: 0; height: 100%; width: 0; padding: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; background-color: #2c317d; color: white; -webkit-transition: all 0.15s ease-in-out, opacity 0.1s linear; transition: all 0.15s ease-in-out, opacity 0.1s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003213}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight h3 { color: white; font-size: 22px; text-align: center; opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003219}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-left: 0; opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003223}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul li { margin: 3px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003225}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul li::before { content: ' '; display: inline-block; width: 16px; height: 16px; background-size: 16px 16px; background: url("../img/icon/check-list.svg") no-repeat center; vertical-align: middle; margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003234}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul + a.link-follow { color: white; opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003237}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight ul + a.link-follow::after { content: ' '; display: inline-block; width: 16px; height: 16px; background-size: 16px 16px; background: url("../img/icon/right-arrow-blanc.svg") no-repeat center; vertical-align: middle; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003250}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight { width: 100%; padding: 1rem 5px 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 -1px 0 white; box-shadow: 0 -1px 0 white; opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003256}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight > span:first-of-type { position: relative; font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003259}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight > span:first-of-type::before { content: 'à partir'; display: inline-block; position: absolute; top: -50%; left: 0; height: 15px; line-height: 1; font-size: 0.65rem; font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003271}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content .card-container_content--highlight .card-container_bottom--highlight .cta-link { font-size: 18px; color: white; font-weight: 700; text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003281}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight { width: 100%; left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003285}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight h3, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight ul, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight a, #solutions-presentation .solutions-slider .slick-track .card-container .card-container_content:hover .card-container_content--highlight .card-container_bottom--highlight { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003294}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom { width: 100%; padding: 5px 10px; -webkit-box-shadow: 0 -1px 0 #77889f; box-shadow: 0 -1px 0 #77889f; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003302}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:first-of-type { width: 60px; height: 25px; line-height: 25px; color: #333333; font-weight: bold; text-align: center; margin-right: 6px; background-color: transparent; border: 1px solid #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003314}}
+#solutions-presentation .solutions-slider .slick-track .card-container .card-container_bottom span:last-of-type { color: #2c317d; font-size: 16px; }
 
-#solutions-infra {
-  background-color: #fff; }
-  #solutions-infra .services_content--title {
-    margin-bottom: 2rem; }
-  #solutions-infra .list-solutions_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; }
-    #solutions-infra .list-solutions_container .list-solutions--items h3 {
-      position: relative;
-      font-size: 22px;
-      color: #2c317d; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3::before {
-        content: "";
-        width: 30px;
-        height: 30px;
-        background-size: 30px 30px;
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 0.65rem; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde-aetia::before {
-        background: url("../img/icon/AETIA2xprotection.svg") no-repeat center; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.reseau::before {
-        background: url("../img/icon/architecture.svg") no-repeat center; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.materiel::before {
-        background: url("../img/icon/distribution_info.svg") no-repeat center; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.conseil::before {
-        background: url("../img/icon/architecture.svg") no-repeat center; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.telecom::before {
-        background: url("../img/icon/safety.svg") no-repeat center; }
-      #solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde::before {
-        background: url("../img/icon/diskette.svg") no-repeat center; }
-    #solutions-infra .list-solutions_container .list-solutions--items ul {
-      margin-top: 1rem;
-      padding-left: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start; }
-      #solutions-infra .list-solutions_container .list-solutions--items ul li {
-        font-size: 18px;
-        color: #77889f;
-        font-style: italic; }
-    #solutions-infra .list-solutions_container .list-solutions--items img {
-      max-width: 80px;
-      outline: 2px solid #2c317d; }
-  #solutions-infra .gallery-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    min-height: 800px;
-    padding: 0 8px 8px;
-    align-content: space-between; }
-    #solutions-infra .gallery-container img {
-      outline: 3px solid transparent;
-      outline-offset: -2px;
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out; }
-      #solutions-infra .gallery-container img:hover {
-        outline-color: #2c317d;
-        outline-offset: 0;
-        filter: grayscale(65%); }
-    #solutions-infra .gallery-container .squarred {
-      max-width: 270px;
-      height: 280px; }
-    #solutions-infra .gallery-container .pano {
-      width: 100%;
-      height: 280px; }
-    #solutions-infra .gallery-container .squarred-sm {
-      width: 180px;
-      height: 180px; }
-    #solutions-infra .gallery-container .pano-sm {
-      width: 65%;
-      height: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003355}}
+#solutions-infra { background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003358}}
+#solutions-infra .services_content--title { margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003361}}
+#solutions-infra .list-solutions_container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003368}}
+#solutions-infra .list-solutions_container .list-solutions--items h3 { position: relative; font-size: 22px; color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003372}}
+#solutions-infra .list-solutions_container .list-solutions--items h3::before { content: ""; width: 30px; height: 30px; background-size: 30px 30px; display: inline-block; vertical-align: middle; margin-right: 0.65rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003382}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde-aetia::before { background: url("../img/icon/AETIA2xprotection.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003388}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.reseau::before { background: url("../img/icon/architecture.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003394}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.materiel::before { background: url("../img/icon/distribution_info.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003401}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.conseil::before { background: url("../img/icon/architecture.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003407}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.telecom::before { background: url("../img/icon/safety.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003413}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde::before { background: url("../img/icon/diskette.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003420}}
+#solutions-infra .list-solutions_container .list-solutions--items ul { margin-top: 1rem; padding-left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003425}}
+#solutions-infra .list-solutions_container .list-solutions--items ul li { font-size: 18px; color: #77889f; font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003431}}
+#solutions-infra .list-solutions_container .list-solutions--items img { max-width: 80px; outline: 2px solid #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003439}}
+#solutions-infra .gallery-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: 800px; padding: 0 8px 8px; -ms-flex-line-pack: justify; align-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003448}}
+#solutions-infra .gallery-container img { outline: 3px solid transparent; outline-offset: -2px; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003452}}
+#solutions-infra .gallery-container img:hover { outline-color: #2c317d; outline-offset: 0; -webkit-filter: grayscale(65%); filter: grayscale(65%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003459}}
+#solutions-infra .gallery-container .squarred { max-width: 270px; height: 280px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003464}}
+#solutions-infra .gallery-container .pano { width: 100%; height: 280px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003469}}
+#solutions-infra .gallery-container .squarred-sm { width: 180px; height: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003473}}
+#solutions-infra .gallery-container .pano-sm { width: 65%; height: 180px; }
 
-#services {
-  background: #eaf3ff;
-  overflow: hidden; }
-  #services .list-services {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; }
-    #services .list-services li {
-      position: relative;
-      display: inline-block;
-      height: 45px;
-      line-height: 1;
-      padding: 5px 3px;
-      background-color: transparent;
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -ms-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out; }
-      #services .list-services li a {
-        color: #2c317d;
-        background: transparent;
-        border-radius: 5px !important; }
-        #services .list-services li a.active {
-          color: #fff;
-          background: #2c317d !important; }
-      #services .list-services li:hover a, #services .list-services li:hover .active, #services .list-services li:focus a, #services .list-services li:focus .active, #services .list-services li:active a, #services .list-services li:active .active {
-        color: #fff;
-        background: #2c317d; }
-  #services .slick-dots {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; }
-    #services .slick-dots li {
-      width: 60px;
-      height: 45px; }
-      #services .slick-dots li button {
-        border: none;
-        background: transparent;
-        width: 100%;
-        height: 100%;
-        color: #2c317d;
-        border-radius: 5px !important; }
-      #services .slick-dots li.slick-active {
-        background-color: #2c317d; }
-        #services .slick-dots li.slick-active button {
-          color: #fff; }
-  #services .front-slide.active {
-    display: flex;
-    justify-content: center; }
-  #services .services-slider--content {
-    width: 75%;
-    min-height: 250px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    opacity: 1;
-    background: #fff;
-    outline: 1px solid #77889f;
-    -webkit-box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55);
-    -moz-box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55);
-    box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55); }
-    #services .services-slider--content .left--content {
-      width: 55%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: flex-start; }
-      #services .services-slider--content .left--content h3 {
-        font-size: 22px;
-        color: #77889f;
-        line-height: 1.1;
-        margin-bottom: 1rem; }
-      #services .services-slider--content .left--content p {
-        line-height: 1.25;
-        color: #333333; }
-    #services .services-slider--content .right--content {
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end; }
-      #services .services-slider--content .right--content img {
-        max-width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003483}}
+#services { background: #eaf3ff; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003488}}
+#services .list-services { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003490}}
+#services .list-services li { position: relative; display: inline-block; height: 45px; line-height: 1; padding: 5px 3px; background-color: transparent; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003499}}
+#services .list-services li a { color: #2c317d; background: transparent; border-radius: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003503}}
+#services .list-services li a.active { color: white; background: #2c317d !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003521}}
+#services .list-services li:hover a, #services .list-services li:hover .active, #services .list-services li:focus a, #services .list-services li:focus .active, #services .list-services li:active a, #services .list-services li:active .active { color: white; background: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003530}}
+#services .slick-dots { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003532}}
+#services .slick-dots li { width: 60px; height: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003535}}
+#services .slick-dots li button { border: none; background: transparent; width: 100%; height: 100%; color: #2c317d; border-radius: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003543}}
+#services .slick-dots li.slick-active { background-color: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003545}}
+#services .slick-dots li.slick-active button { color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003552}}
+#services .front-slide.active { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003557}}
+#services .services-slider--content { width: 75%; min-height: 250px; padding: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; opacity: 1; background: white; outline: 1px solid #77889f; -webkit-box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55); box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003571}}
+#services .services-slider--content .left--content { width: 55%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003575}}
+#services .services-slider--content .left--content h3 { font-size: 22px; color: #77889f; line-height: 1.1; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003581}}
+#services .services-slider--content .left--content p { line-height: 1.25; color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003586}}
+#services .services-slider--content .right--content { width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003589}}
+#services .services-slider--content .right--content img { max-width: 99%; border-radius: 5px 2px 25px 0; -webkit-box-shadow: 0 0 0 3px red; box-shadow: 0 0 0 3px red; }
 
-#blog-news .blog_content {
-  margin-top: 1rem; }
-  #blog-news .blog_content .blog_content--top {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1rem; }
-    #blog-news .blog_content .blog_content--top .tag {
-      font-size: 14px; }
-      #blog-news .blog_content .blog_content--top .tag:first-of-type {
-        background: rgba(44, 49, 125, 0.25);
-        color: #2c317d;
-        margin-right: 1rem; }
-      #blog-news .blog_content .blog_content--top .tag:nth-of-type(2) {
-        background: rgba(119, 136, 159, 0.25);
-        color: #77889f; }
-    #blog-news .blog_content .blog_content--top .date-post {
-      margin: 0 1rem 0 auto;
-      font-style: italic; }
-  #blog-news .blog_content .blog_content--post h2 {
-    font-size: 30px;
-    color: #77889f;
-    margin-bottom: 2rem; }
-  #blog-news .blog_content .blog_content--post p {
-    line-height: 1.1;
-    color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003609}}
+#blog-news .blog_content { margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003612}}
+#blog-news .blog_content .blog_content--top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003616}}
+#blog-news .blog_content .blog_content--top .tag { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003619}}
+#blog-news .blog_content .blog_content--top .tag:first-of-type { background: rgba(44, 49, 125, 0.25); color: #2c317d; margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003624}}
+#blog-news .blog_content .blog_content--top .tag:nth-of-type(2) { background: rgba(119, 136, 159, 0.25); color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003629}}
+#blog-news .blog_content .blog_content--top .date-post { margin: 0 1rem 0 auto; font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003635}}
+#blog-news .blog_content .blog_content--post h2 { font-size: 30px; color: #77889f; margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003640}}
+#blog-news .blog_content .blog_content--post p { line-height: 1.1; color: #333333; }
 
 /*# sourceMappingURL=homepage.css.map */

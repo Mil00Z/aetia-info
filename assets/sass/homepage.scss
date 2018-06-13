@@ -587,7 +587,9 @@
       width:40%;
       @include flex-standard(column,center,flex-end);
         img{
-          max-width:90%;
+          max-width:99%;
+          border-radius: 5px 2px 25px 0;
+        box-shadow: 0 0 0 3px red;
         }
 
     }
