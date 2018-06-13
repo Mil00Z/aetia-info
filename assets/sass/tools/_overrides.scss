@@ -1,0 +1,28 @@
+//overriding BOOSTRAP COMPONENT//
+
+.container-fluid{
+  padding-right:0 !important;
+  padding-left:0  !important;
+}
+.nav-tabs{
+  border:none;
+}
+.nav-tabs .nav-link{
+  border:none !important;
+  border-radius:0 !important;
+}
+.nav-tabs>li>a{
+  border:none;
+  border-radius:0 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+      background: none;
+      border:none;
+}
+.nav-link.active{
+  background:none !important;
+}
+//slider effect on tab pane
+.tab-content .tab-pane {
+  position: relative;
+}

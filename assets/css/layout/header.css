@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+#main-nav ul li, .espace-client { -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+
+/*styles des entete Title des section*/
+/*ELEMENTS*/
+/*MODIFIER */
+.list-item--active { background: none; border: none; }
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
+
+#main-header { min-height: 100px; padding: 5px 0; top: 0; display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: white; box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); }
+#main-header.fixed-top { position: fixed; width: 100%; z-index: 999; }
+#main-header .logo-brand img { width: 180px; max-width: 200px; height: auto; object-fit: cover; margin-right: 0; }
+#main-header #contact ul { display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start; padding-left: 0; margin: 0; }
+#main-header #contact ul li::before { content: ''; display: inline-block; width: 15px; height: 15px; background-size: 15px 15px; margin-right: 6px; }
+#main-header #contact ul li.tel-contact::before { background: url("../img/icon/tel-contact.svg") no-repeat center; }
+#main-header #contact ul li.mail-contact::before { background: url("../img/icon/mail-contact.svg") no-repeat center; }
+#main-header #contact ul a { color: #77889f; font-size: 18px; }
+
+#main-nav ul { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+#main-nav ul li { display: flex; flex-direction: row; justify-content: space-between; align-items: center; flex: 2 0 auto; margin: 0 5px; background-color: transparent; text-align: center; }
+#main-nav ul li a { display: block; color: #77889f; padding: 5px; font-size: 1rem; background: linear-gradient(to right, rgba(20, 115, 230, 0.5) 0%, rgba(20, 115, 230, 0.5) 50%, transparent 50%, transparent 50%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; border-radius: 0 5px 5px 0; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+#main-nav ul li a:first-letter { text-transform: uppercase; }
+#main-nav ul li a:hover, #main-nav ul li a:focus, #main-nav ul li a.active-nav-item { color: white; background-position: 0 0; }
+
+.espace-client { width: 120px; height: 40px; line-height: 40px; background-color: #1473e6; border: 1px solid transparent; }
+.espace-client a { display: block; color: white; font-size: 16px; font-weight: 700; text-align: center; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+.espace-client:hover, .espace-client:focus, .espace-client:active { background-color: white; border-color: #1473e6; }
+.espace-client:hover a, .espace-client:focus a, .espace-client:active a { color: #1473e6; }
+
+#search-bar { width: 180px; height: 40px; box-shadow: 0 0 0 2px #333333; padding: 2px 2px; border-radius: 5px; display: flex; flex-direction: row; justify-content: center; align-items: center; }
+#search-bar input[type="search"] { width: 75%; height: 35px; background: transparent !important; padding: 2px; border: none; }
+#search-bar button[type="submit"] { width: 30px; height: 30px; background-size: 30px 30px; background: url("../img/icon/loupe.svg") no-repeat center; border: none; }

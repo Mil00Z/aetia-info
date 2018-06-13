@@ -1,0 +1,88 @@
+@import 'base/reset';
+@import 'tools/placeholders';
+@import 'tools/animations';
+@import 'tools/overrides';
+@import 'tools/composants';
+
+//SECTION HEADER
+@import 'layout/header';
+//FOOTER
+@import 'layout/footer';
+//Banner top
+#banner-img{
+  @extend %banner-top--contact;
+}
+
+#form-section{
+  @extend %bg-section;
+  background:url('../img/background/bg-right-contact.svg') no-repeat;
+  background-size: 20%;
+  background-position: 80% 50%;
+}
+
+//Bootstrap Full Layout
+.form-header{
+  margin-bottom:1.45rem;
+  @include flex-standard(row,flex-start,center);
+    & h1{
+    display:inline-block;
+    padding-bottom:2px;
+    border-bottom:3px solid $bleu;
+  }
+    & .form-header-icon{
+      width:40px;
+      height:40px;
+      margin-left:2rem;
+        & > svg{
+          width:90%;
+          height:auto;
+          & path{
+            fill:$bleu;
+            stroke: #d3d6da;
+            stroke-width:10px;
+          }
+
+
+        }
+      //display:none !important;
+    }
+}
+.form-group{
+  //padding:0.55rem 0;
+  //border:1px solid transparent;
+  //@include border-radius(3px);
+  //@include transition-standard();
+
+  &:focus-within{
+    //background-color:$gris;
+    //    //border-color:$bleu;
+
+    & input:not(textarea){
+      box-shadow:0 0 5px rgba($bleu,0.35);
+    }
+  }
+  & label{
+    font-size:1rem;
+    color:$bleu;
+    font-weight:bold;
+  }
+  & input.form-control, textarea.form-control{
+    max-width:60%;
+    font-size:0.85rem;
+    border:2px solid rgba($noir,0.15);
+    @include placeholder($noir,0.85rem);
+      &:focus,&:active{
+        border-color:$bleu;
+        box-shadow:0 0 5px 1px rgba($bleu,0.2);
+      }
+
+  //UX and validation pattern design
+      &:valid{
+        box-shadow:inset 0 0 2px darkgreen;
+      }
+      //&:invalid{
+      //  box-shadow:0 0 2px 1px red;
+      //
+      //}
+  }
+ }

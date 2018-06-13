@@ -1,0 +1,327 @@
+//top bar
+#top-bar{
+  width:100%;
+  z-index:400;
+  padding:5px;
+  background-color:rgba($bleu,0.6);
+  color:$blanc;
+  min-height:$topbar-height;
+  @include transition-standard(margin,0.15s,ease-in-out);
+
+  &.off-view{
+    margin-top:-$topbar-height; //top bar height//
+  }
+
+  & .content{
+    height:$topbar-height;
+    @include flex-standard(row,space-between,center);
+    .info-opening{
+      & p {
+        display:inline-block;
+        font-size:$nav-item;
+        color:$blanc;
+        //text-shadow:1px 1px 1px $noir;
+        text-decoration: underline;
+        margin:0;
+      }
+    }
+    .info-contact {
+      display:inline-block;
+      ul {
+        @include flex-standard(row,flex-end,center);
+        padding-left:0;
+        margin:0;
+        li{
+          &:first-of-type{
+            margin-right:1rem;
+          }
+          &::before{
+            content:'';
+            display:inline-block;
+            @include bg-sizing-pseudo-el(20px,20px);
+            margin-right:6px;
+            vertical-align: middle;
+          }
+          &.tel-contact{
+            &::before{
+              background:url('../img/icon/tel-contact.svg') no-repeat center;
+            }
+          }
+          &.mail-contact{
+            &::before{
+              background:url('../img/icon/mail-contact.svg') no-repeat center;
+            }
+          }
+        }
+        a{
+          color:$blanc;
+          font-size:$nav-item;
+          font-weight:bold;
+        }
+
+      }
+
+    }
+  }
+
+
+
+
+}
+
+
+//backtop
+#back-to-top{
+  display:inline-block;
+  position:fixed;
+  width:100px;
+  height:50px;
+  line-height:50px;
+  bottom:0;
+  left:-2%;
+  z-index:1000;
+  background-color:$blanc;
+  border:1px solid transparent;
+  border-radius:0 5px 5px 0;
+  @include box-shadow(2px,2px,4px,rgba($noir,0.45));
+  opacity:0;
+  transition: all 0.3s ease-in-out;
+        a{
+          display:block;
+          text-align:center;
+          font-size:1rem;
+          color:$noir;
+        }
+      &.shown{
+    opacity:1;
+  }
+      &:hover, &:focus{
+        //background-color:$violet-light;
+        left:0;
+            a{
+              color:$blanc;
+            }
+    }
+}
+
+//main si sticky nav-top
+//main{
+//  padding-top:$nav-height;
+//}
+
+//Nav de Solutions
+#nav-solutions{
+  max-width:100%;
+  position:sticky;
+  top:0;
+  height:65px;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index:2000;
+  //margin-bottom:2rem;
+  @include box-shadow(0,1px,2px,rgba($noir,0.45));
+
+    #nav-logiciels , #nav-infra{
+    width:100%;
+    height:100%;
+    margin-bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:$blanc;
+    li{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      padding:8px;
+      height:100%;
+      text-align: center;
+      &:not(:last-child){
+        border-right:1px solid $gris;
+      }
+
+      a{
+        color:$noir;
+        font-weight: bold;
+        font-size:$texte;
+        //line-height:$texte;
+        text-transform: uppercase;
+        & span{
+          font-style: italic;
+        }
+      }
+
+      &:hover,&.active-nav{
+        background:$bleu-logo;
+        a{
+          color:$blanc;
+        }
+      }
+    }
+  }
+}
+//.nav_services{
+//  position:fixed;
+//  left:0;
+//  top:50%;
+//  width:200px;
+//  min-height:100px;
+//  padding:5px;
+//  display:flex;
+//  justify-content: center;
+//  align-items: center;
+//  background:$blanc;
+//      .nav_services--itemfix{
+//        color: red;
+//        margin:5px 0;
+//      }
+//}
+//Banner Top
+.banner-top{
+  @extend %banner-top;
+  h1{
+    @extend %banner-top--title;
+  }
+}
+
+
+//Classes extensibles
+.services_content--title{
+  @extend %title-container;
+  margin-bottom:1rem;
+}
+.more{
+  @extend %more-info;
+}
+.link_cta{
+  background:$bleu;
+  color:$blanc;
+  @extend %link-cta;
+    &:hover,&:focus,&:active{
+      background:$blanc;
+      border-color:currentColor;
+      color:$bleu;
+    }
+}
+.link_retro{
+  @extend %link-retro;
+  color:$bleu;
+  &:hover,&:focus,&:active{
+      color:$noir;
+
+    }
+}
+
+#error-404{
+  width:100%;
+  min-height:65vh;
+  //ou bien même style que les banner-top
+  //@extend %banner-top--404;
+  background:url('../img/background/bg-404_banner.jpg') no-repeat center;
+  background-size:cover;
+.error-404_block{
+  //si besoin de modifer en responsive
+  //@include flex-standard(column,flex-start,flex-start);
+}
+  .img-404{
+    max-width:150px;
+    display:block;
+  }
+  h1{
+    display: inline-block;
+    color:$blanc;
+    font-size:$h1;
+    padding-bottom:3px;
+    border-bottom:2px dashed currentColor;
+    text-shadow:1px 1px 5px rgba($noir,0.45);
+  }
+
+  .error-404_content{
+    &  p {
+      color:$noir;
+      font-size:1rem;
+      margin:1rem 0;
+      mix-blend-mode: multiply;
+    }
+    & p:first-of-type::after{
+      content:'';
+      @include bg-sizing-pseudo-el(30px,30px);
+      background:url('../img/icon/sad-smiley.svg') no-repeat center;
+      display:inline-block;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+  }
+  .form-block{
+    max-height:50px;
+    display:flex;
+    margin:1rem 0;
+
+    input[type='search'],button{
+      border:none;
+      @include transition-standard();
+
+    }
+    input[type='search']{
+      max-width:200px;
+      padding:5px;
+      background:$blanc;
+      color:$noir;
+      font-weight:bold;
+      box-shadow: inset 0 0 0 1px rgba($bleu,0.75);
+      @include border-radius-custom(5px,0,0,5px);
+      @include placeholder-shown($gris,0.75,1rem);
+      &:focus,&:active{
+    //voir si on a besoin d'un effets de remplissage'
+      }
+    }
+    button{
+      width:50px;
+      background-color:$bleu;
+      color:$blanc;
+      font-weight:bold;
+      @include border-radius-custom(0,5px,5px,0);
+      border-color:transparent;
+      &:hover,&:focus {
+        color:$bleu;
+      }
+    }
+}
+
+  .back-home{
+    width:300px;
+    padding:3px;
+    display:inline-block;
+    //background: $blanc;
+    @include box-shadow-complet(0,0,0,3px,$blanc);
+    text-transform: uppercase;
+    color:$blanc;
+    letter-spacing: 2px;
+    @include border-radius(5px);
+    text-align: center;
+      &:hover,&:focus{
+        -webkit-background-clip:text;
+        background-clip:text;
+        color:transparent;
+        background-color:$blanc;
+      }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

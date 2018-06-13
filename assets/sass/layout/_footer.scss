@@ -1,0 +1,155 @@
+@import '../tools/placeholders';
+
+#main-footer {
+  position: relative;
+  @extend %padding-section;
+  padding-bottom:5px;
+  background: url('../img/background/geoloc2.jpg') no-repeat right center, $bleu;
+  //la qualité de l'image de base et la taille de l'écran va impacter le rendu'
+  background-size: 35% auto, 100%;
+  //background: url('../img/background/aetia-geoloc.png') no-repeat right center, $bleu;
+  ////la qualité de l'image de base et la taille de l'écran va impacter le rendu'
+  //background-size: 35% 100%, 100%;
+
+  img {
+    width: 170px;
+  }
+}
+//footer block
+.main-footer_brand{
+  @include flex-standard(row,space-between,flex-start);
+  margin-top:1rem;
+
+  img{
+    width:300px;
+  }
+  .sub-nav_container{
+    @include flex-standard(row,space-between,center);
+    flex:0 1 65%;
+    ul{
+      width:100%;
+      @include flex-standard(row,space-between,flex-start);
+      .sub-nav_col{
+        @include flex-standard(column,space-between,flex-start);
+        ul{
+          @include flex-standard(column,flex-start,flex-start);
+        }
+        li{
+          display:flex;
+          flex-direction:column;
+          margin:5px 0;
+          a{
+            color:$blanc;
+            &:hover,&:focus{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  h2{
+    font-size:$h2_footer;
+    color:$blanc;
+    text-decoration: underline;
+    margin-bottom:1.5rem;
+  }
+}
+
+.main-footer_social-network{
+  @include flex-standard(column,flex-start,center);
+  nav, ul{
+    width:100%;
+  }
+
+  .social-nav{
+    ul{
+      @include flex-standard(row,center,center);
+    }
+    img{
+      max-width:75px;
+      filter: drop-shadow(1px 1px 2px $noir);
+      //animation: scale_updown 1.5s  0.15s infinite ease-in-out ;
+
+    }
+  }
+
+}
+
+.brand_coord{
+  position:absolute;
+  right:10px;
+  bottom:15px;
+  width:calc(33% - 20px);
+  max-width:500px;
+  background:$blanc;
+  padding:8px 5px;
+  @include flex-standard(row,space-between,center);
+  @include box-shadow(0,3px,6px,rgba($noir,0.55));
+  perspective:800px;
+  transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in;
+  will-change:transform;
+
+  .brand_name{
+    @include flex-standard(column,space-between,flex-start);
+    h2 {
+      font-size:$texte_2;
+      color:$bleu;
+      font-weight:bold;
+      margin-bottom:5px;
+      line-height:$texte_2;
+    }
+    span:first-of-type{
+      font-size:$nav-item;
+    }
+  }
+  .brand_adress{
+    display:inline-block;
+    ul{
+      margin-bottom:0;
+      li{
+        font-size:$small-nav-item;
+        line-height: 1.15;
+        color:$gris;
+      }
+    }
+
+  }
+  .brand_contact{
+    display:flex;
+    flex-direction:column;
+    a{
+      color:$gris;
+      font-size:$small-nav-item;
+    }
+
+  }
+
+  &:hover,&:focus,&.active-coord{
+    outline:2px solid rgba($bleu,0.35);
+    //@include scale(1.025);
+    //perspective:500px;
+  }
+
+}
+
+//Copyright and ML
+#sub-footer{
+
+  ul{
+    @include flex-standard(row,flex-start,center);
+    li{
+      margin:0 8px;
+      a{
+        color:$blanc;
+        font-size:$small-nav-item ;
+        .copyright{
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+}
+
+

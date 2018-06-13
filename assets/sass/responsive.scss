@@ -1,0 +1,55 @@
+@import 'base/reset';
+@import 'tools/variables';
+@import 'tools/mixins';
+@import 'tools/placeholders';
+@import 'tools/animations';
+@import 'tools/overrides';
+
+
+
+//TAB 600
+@media all and (max-width:$med-tablet){
+  .container{
+    max-width:780px;
+  }
+
+
+}
+
+
+//TAB 780
+@media all and (max-width:$tablet) {
+  .container{
+    max-width:990px;
+  }
+
+
+}
+
+
+//DESKTOP 990
+@media all and (max-width: $med-desk){
+.container{
+  max-width:1080px;
+}
+
+}
+
+// DESKTOP LG
+@media all and (max-width:$lg-desk) {
+
+  .container {
+    width:1300px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+

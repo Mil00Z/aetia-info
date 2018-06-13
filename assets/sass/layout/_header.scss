@@ -1,0 +1,227 @@
+@import '../tools/placeholders';
+
+#main-header{
+  min-height:90px;
+  padding:5px 0;
+  top:0;
+  position:relative;
+  @include flex-standard(row,space-between,center);
+  background-color:$blanc;
+  box-shadow: 0 1px 1px $gris-light, 0 2px 4px rgba($noir,0.55);
+  //à activer si besoin
+    &.fixed-top{
+      position: fixed;
+      width:100%;
+      z-index:999;
+    }
+
+  .logo-brand{
+        img{
+          width:150px;
+          max-width:170px;
+          height:auto;
+          object-fit:cover;
+          margin-right:0;
+        }
+  }
+
+  #contact{
+      ul{
+        @include flex-standard(column,space-around,flex-start);
+        padding-left:0;
+        margin:0;
+          li{
+            &::before{
+              content:'';
+              display:inline-block;
+              @include bg-sizing-pseudo-el(14px,14px);
+              margin-right:8px;
+              vertical-align: middle;
+            }
+                &.tel-contact{
+                    &::before{
+                      background:url('../img/icon/tel-contact.svg') no-repeat center;
+                    }
+                }
+                &.mail-contact{
+                  &::before{
+                    background:url('../img/icon/mail-contact.svg') no-repeat center;
+                  }
+                }
+            }
+              a{
+                color:$gris;
+                font-size:$nav-item;
+
+              }
+          }
+      }
+
+  }
+
+#main-nav {
+
+    ul{
+      @include flex-standard(row,center,center);
+
+      li{
+        @include flex-standard(row,space-between,center);
+        flex:2 0 auto;
+        margin:0 5px;
+        background-color: transparent;
+        text-align:center;
+        //@include border-custom(1px, solid, transparent);
+        @extend %btn-radius;
+
+        &.dropdown{
+          flex-direction:column;
+          & .dropdown-menu{
+            position:absolute;
+            z-index:5000;
+            margin-top:0;
+            padding:2px 0;
+            color:$noir;
+          }
+        }
+
+        a{
+          display:block;
+          color:$gris;
+          padding:5px;
+          font-size:14px;
+          background:linear-gradient(to right,rgba($bleu,0.5) 0%, rgba($bleu,0.5) 50%, transparent 50%, transparent 50%) no-repeat
+          center;
+          background-size:200% 100%;
+          background-position: 100% 0;
+          border-radius:0 5px 5px 0;
+          @include transition-standard();
+          &:first-letter{
+            text-transform: uppercase;
+          }
+          &.dropdown-item{
+            margin:4px 0;
+            border-radius:0;
+          }
+
+          &:hover,&:focus,&.active-nav-item{
+            color:$blanc;
+            background-position: 0 0;
+          }
+        }
+      }
+    }
+    // fin main-nav
+  }
+
+.espace-client{
+    width:100px;
+    line-height: 30px;
+    background-color: $bleu;
+    border:1px solid transparent;
+    @extend %btn-radius;
+    a{
+      display:block;
+      color:$blanc;
+      font-size:$nav-item;
+      font-weight:$bold;
+      text-align: center;
+      @include transition-standard;
+    }
+
+    &:hover,&:focus,&:active {
+      background-color:$blanc;
+      border-color:$bleu;
+      a{
+        color:$bleu;
+      }
+
+    }
+
+  }
+
+button.toggle-search{
+  @include bg-sizing-pseudo-el(30px,30px);
+  background:url('../img/icon/loupe.svg') no-repeat center;
+  border:none;
+  @include transition-standard(all, 0.05s, ease-in-out);
+  cursor:pointer;
+   &.active-search{
+     background:url('../img/icon/close-black.svg') no-repeat center;
+     background-size:18px;
+
+  }
+}
+
+#search-bar{
+  position:absolute;
+  top:100%;
+  right:20%;
+  max-width:200px;
+  display:none;
+  //width:120px;
+  //height:40px;
+  min-height:15vh;
+  background-color:$blanc;
+  box-shadow:inset 0 3px 0 $bleu;
+  //padding:2px;
+  padding:5px;
+  z-index:9999;
+  //border-radius:5px;
+  @include flex-standard(row,center,center);
+  @include transition-standard(width,0.1s,ease-in);
+
+    input[type="search"]{
+      //width:75%;
+      width:70%;
+      height:35px;
+      border:none;
+      outline:2px solid rgba($gris,0.45);
+      background:transparent !important;
+      //border: 2px solid $gris;
+      padding: 3px 24px 3px 6px;
+      //padding:2px;
+      font-size:$nav-item;
+      color:$noir;
+      font-weight: bold;
+      @include transition-standard();
+      @include placeholder(rgba($noir,0.35),$placeholder);
+      //&::placeholder{
+      //  color:rgba($noir,0.35);
+      //  font-size:$placeholder;
+      //}
+        &:focus{
+               width:80%;
+               outline-color:rgba($bleu,0.85);
+               padding-right:33px;
+             }
+    }
+
+    button[type="submit"]{
+      position:absolute;
+      right:18%;
+      @include bg-sizing-pseudo-el(20px,20px);
+      background:url('../img/icon/loupe.svg') no-repeat center;
+      border:none;
+      cursor:pointer;
+    }
+
+    &:focus-within{
+      input[type="search"]{
+        width:80%;
+        outline-color:rgba($bleu,0.85);
+        padding-right:30px;
+        //border-color:rgba($bleu,0.85);
+      }
+
+    }
+
+
+}
+
+.to-contact{
+  @include bg-sizing-pseudo-el(30px,30px);
+  background:url('../img/icon/contact.svg') no-repeat center;
+  //border:none;
+}
+
+

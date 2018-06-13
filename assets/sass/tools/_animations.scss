@@ -1,0 +1,77 @@
+//ANIMATIONS
+
+@keyframes arrow-swipe-right{
+  0%{
+    transform:translateX(0);
+  }
+  35%{transform:translateX(4px);
+  }
+  50%{transform:translateX(8px);
+  }
+  75%{transform:translateX(4px);
+  }
+  100%{
+    transform:translateX(0);
+    }
+}
+@keyframes arrow-swipe-left{
+  0%{
+    transform:translateX(0);
+  }
+  35%{transform:translateX(-4px);
+  }
+  50%{transform:translateX(-8px);
+  }
+  75%{transform:translateX(-4px);}
+  100%{
+    transform:translateX(0) ;
+    }
+}
+@keyframes spinAround{
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale_updown{
+  0%{
+      transform:scale(1);
+  }
+
+  50%{
+      transform:scale(1.07);
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+//
+//@keyframes arrow_hover {
+//  0%{
+//    transform:translate3d(-50%,-50%,0);
+//  }
+//  50%{
+//  transform:translate3d(-50%,-60%,0);
+//  }
+//  100%{
+//  transform:translate3d(-50%,-50%,0);
+//  }
+//}
+//
+//@keyframes blink_icones {
+//      0%{
+//        fill:#fff;
+//    }
+//    50%{
+//        fill: #f8ef00;
+//        transform: scale(1.1);
+//    }
+//    100%
+//    {
+//      fill:#fff;
+//    }
+//}
+

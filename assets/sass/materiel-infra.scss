@@ -1,0 +1,31 @@
+@import 'base/reset';
+@import 'tools/animations';
+@import 'tools/overrides';
+@import 'tools/placeholders';
+//SECTION HEADER
+@import 'layout/header';
+//FOOTER
+@import 'layout/footer';
+@import 'tools/composants';
+
+
+#nav-infra{
+    li{
+      min-width:calc(100% / 5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

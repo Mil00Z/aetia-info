@@ -1,0 +1,70 @@
+//VARIABLES//
+
+//Colors//
+//$bleu-flashi: rgb(20,115,230);
+$bleu:rgb(44,49,125);
+$bleu-logo:rgb(44,49,125);
+$noir:rgb(51,51,51);
+$gris: rgb(119,136,159);
+$gris-light:rgb(234,243,255);
+$blanc:#fff;
+//$violet:rgb(51,51,102);
+
+
+//FONTS//
+ @font-face {
+   font-family:"Segoe UI";
+    src: url('../../fonts/segoeui.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+      }
+
+//Web Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900');
+
+$main-font:'Open Sans',sans-serif;
+$segoeui : 'Segoe UI',sans-serif;
+$secur-font:'Roboto',sans-serif;
+$awesome:'FontAwesome';
+
+$nav-height:100px;
+$topbar-height:30px;
+
+//FONT SETTINGS
+$h1:40px;
+$h2:30px;
+$h2_footer : 25px;
+$h3:22px;
+$p: 20px;
+$texte:18px;//1.125rem
+$texte_2 : 16px;
+$nav-item:14px;
+$button-item:16px;
+$placeholder:12px;
+$tag:14px;
+$small-nav-item:12px;
+$light:300;
+$regular:400;
+$bold:700;
+
+
+//RESPONSIVE//
+// Using SCSS variables to store major breakpoints //
+$mobil:360px;
+$med-tablet:640px;
+$tablet:780px;
+$med-desk:990px;
+$lg-desk:1200px;
+// $xlg-desk:1380px;
+
+// $mobil:"only screen and (max-width:380px)";
+// $tablet-sm:"only screen and (min-width: 381px) and (max-width:500px)";
+//  $tablet-error-breakpoint : "only screen and (min-width: 570px ) and (max-width:770px)";
+// $tablet:"only screen and (min-width:501px) and (max-width:769px)";
+// $tablet-xl: "only screen and (min-width:770px) and (max-width: 990px)";
+// $desk-sm:"only screen and (min-width: 991px) and (max-width:1170px)";
+// $desk : "only screen and (min-width:1171px) and (max-width:1400px)";
+// $desk-xl:"only screen and (min-width:1401px)";
+
+

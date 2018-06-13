@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../../fonts/segoeui.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body, html {
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: "Open Sans", sans-serif, "Roboto", sans-serif, sans-serif; }
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 0; }
+
+a, a:hover, a:focus {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../../fonts/segoeui.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../../fonts/segoeui.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/*styles des entete Title des section*/
+/*ELEMENTS*/
+/*MODIFIER */
+.list-item--active {
+  background: none;
+  border: none; }
+  .list-item--active:before {
+    content: '';
+    background: url("../../assets/icone/check.svg") no-repeat center;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px; }
+
+@keyframes arrow-swipe-right {
+  0% {
+    transform: translateX(0); }
+  35% {
+    transform: translateX(4px); }
+  50% {
+    transform: translateX(8px); }
+  75% {
+    transform: translateX(4px); }
+  100% {
+    transform: translateX(0); } }
+@keyframes arrow-swipe-left {
+  0% {
+    transform: translateX(0); }
+  35% {
+    transform: translateX(-4px); }
+  50% {
+    transform: translateX(-8px); }
+  75% {
+    transform: translateX(-4px); }
+  100% {
+    transform: translateX(0); } }
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@keyframes scale_updown {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.07); }
+  100% {
+    transform: scale(1); } }
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0  !important; }
+
+.nav-tabs {
+  border: none; }
+
+.nav-tabs .nav-link {
+  border: none !important;
+  border-radius: 0 !important; }
+
+.nav-tabs > li > a {
+  border: none;
+  border-radius: 0 !important; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background: none;
+  border: none; }
+
+.nav-link.active {
+  background: none !important; }
+
+.tab-content .tab-pane {
+  position: relative; }
+
+@media all and (max-width: 640px) {
+  .container {
+    max-width: 780px; } }
+@media all and (max-width: 780px) {
+  .container {
+    max-width: 990px; } }
+@media all and (max-width: 990px) {
+  .container {
+    max-width: 1080px; } }
+@media all and (max-width: 1200px) {
+  .container {
+    width: 1300px; } }
+
+/*# sourceMappingURL=responsive.css.map */
