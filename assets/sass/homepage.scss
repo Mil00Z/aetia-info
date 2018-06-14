@@ -377,11 +377,15 @@
             vertical-align: middle;
             margin-right: 0.65rem;
           }
-          //necessite le décompte total des items à afficher
+          //necessite le décompte total précis des items à afficher
           &.sauvegarde-aetia{
             &::before{
+              //picto illisible plus petit
+              width:60px;
+              height:60px;
               background:url("../img/icon/AETIA2xprotection.svg") no-repeat center;
               //background:url("../img/icon/diskette-sm.svg") no-repeat center;
+              background-size:60px 60px;
             }
           }
           &.reseau{
@@ -392,8 +396,8 @@
           }
           &.materiel{
             &::before{
-              background:url("../img/icon/close..svg") no-repeat center;
-               //background:url("../img/icon/distribution_info-sm.svg") no-repeat center;
+              background:url("../img/icon/distrib-info.svg") no-repeat center;
+               //background:url("../img/icon/distribution-info-sm.svg") no-repeat center;
             }
 
           }
@@ -598,7 +602,6 @@
 //SECTION Blog
 #blog-news{
   @extend %padding-section;
-
   //si besoin de center les articles comme sur maquette
   //.blog_gallery{
   //  width:75%;
