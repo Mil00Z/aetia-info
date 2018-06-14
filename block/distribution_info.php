@@ -8,7 +8,7 @@
             <h3>Sous titre éventuel</h3>
         </div>
 
-        <img src="assets/img/icon/distribution_info.svg" alt="icone distribution" class="picto-services">
+        <img src="assets/img/icon/distrib-info-sm.svg" alt="icone distribution" class="picto-services--rounded">
 
         <p>AETIA Informatique est revendeur des plus grandes marques du marché vous garantissant par son volume d'activité, des prix très compétitifs, des conseils étendus et des garanties constructeurs élargies.
 

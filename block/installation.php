@@ -74,7 +74,7 @@
 
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/diskette.svg" alt="logo de la solution Quadratus">
+                        <img src="assets/img/icon/diskette.svg" alt="logo de la solution Quadratus" class="svg-logo">
                         <div class="overlay--content"></div>
                     </a>
 
@@ -82,7 +82,7 @@
 
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/world-network.svg" alt="logo de la solution ">
+                        <img src="assets/img/icon/world-network.svg" alt="logo de la solution " class="svg-logo">
                         <div class="overlay--content"></div>
                     </a>
 
@@ -90,7 +90,7 @@
 
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/safety.svg" alt="logo de la solution">
+                        <img src="assets/img/icon/safety.svg" alt="logo de la solution..." class="svg-logo">
                         <div class="overlay--content"></div>
                     </a>
 
@@ -98,7 +98,7 @@
 
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/distribution_info.svg" alt="logo de la solution Quadratus">
+                        <img src="assets/img/icon/distrib-info.svg" alt="logo de la solution..." class="svg-logo">
                         <div class="overlay--content"></div>
                     </a>
 
@@ -107,16 +107,20 @@
 <!--pas de logo et pas de solutions pour les deux denières-->
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/close-black.svg" alt="logo de la solution ...">
-                        <div class="overlay--content"></div>
+                        <img src="assets/img/icon/close-black.svg" alt="logo de la solution..." class="svg-logo">
+                        <div class="overlay--content">
+                            <span>Solution Inconnue</span>
+                        </div>
                     </a>
 
                 </li>
 
                 <li class="services-grid--item">
                     <a href="solutions-log.php">
-                        <img src="assets/img/icon/close-black.svg" alt="logo de la solution ...">
-                        <div class="overlay--content"></div>
+                        <img src="assets/img/icon/close-black.svg" alt="logo de la solution..." class="svg-logo">
+                        <div class="overlay--content">
+                            <span>Solution Inconnue</span>
+                        </div>
                     </a>
 
                 </li>

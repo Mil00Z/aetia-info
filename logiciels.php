@@ -60,13 +60,18 @@
             <?php require_once ('layout/banner-top.php') ;?>
 
 
-          <!--  Page du modèle template-->
+          <!--  Page du modèle - template-->
 
           <?php require_once ('block/quadratus.php') ;?>
+
 <!--          --><?php //require_once ('block/devilog.php') ;?>
+
 <!--          --><?php //require_once('block/omnijoin.php') ;?>
+
 <!--          --><?php //require_once('block/myreport.php') ;?>
-<!--          --> <?php //require_once ('block/dokmee.php') ;?>
+
+<!--           --><?php //require_once ('block/dokmee.php') ;?>
+
 <!--          --><?php //require_once('block/myportal.php') ;?>
 
       </main>

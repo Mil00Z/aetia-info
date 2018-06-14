@@ -8,7 +8,7 @@
             <h3>Sous titre éventuel</h3>
         </div>
 
-        <img src="assets/img/icon/aetia2xprotection.svg" alt="icone de la solution de sauvegarde Aetia 2X" class="picto-services">
+        <img src="assets/img/icon/aetia2xprotection-sm.svg" alt="icone de la solution de sauvegarde Aetia 2X" class="picto-services--rounded">
 
         <p>Les études démontrent que la perte de fichiers essentiels, même pendant 24h, peut nuire considérablement à la plupart des entreprises.
         </p>

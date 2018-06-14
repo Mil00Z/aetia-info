@@ -8,7 +8,7 @@
             <h3>Sous titre éventuel</h3>
         </div>
 
-        <img src="assets/img/icon/safety.svg" alt="icone de protection" class="picto-services">
+        <img src="assets/img/icon/safety-sm.svg" alt="icone de protection" class="picto-services--rounded">
 
         <div class="services_subcontent">
 

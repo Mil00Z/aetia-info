@@ -50,7 +50,7 @@
       max-width:70px !important;
       float:right; //peut provoquer un dés-alignement des contenus suivants
       border-radius:50%;
-      box-shadow: 0px 3px 6px rgba($noir,0.75),0 0 0 2px $bleu-logo;
+      box-shadow: 0px 3px 6px rgba($noir,0.75),0 0 0 1px $bleu-logo;
       shape-outside:circle(50% at center);
       //clip-path:ellipse(70% 30%  at 50% 50%);
       //-webkit-clip-path:ellipse(70% 30% at 50% 50%);
@@ -82,27 +82,35 @@
   }
 
   & .solutions-grid{
-    width:50%;
+    width:60%;
+    max-width:70%;
     display:flex;
     flex-wrap:wrap;
-    @include box-shadow(0,1px,2px,$noir);
+    margin-bottom:2.5rem;
+    @include transition-standard(box-shadow,0.15s,ease-in);
      & > li {
        width:50%;
        line-height:3rem;
        text-align:center;
        background: $blanc;
        outline:1px solid rgba($gris,0.25);
-       a{
+       @include box-shadow(0,1px,3px,$noir);
+       @include transition-standard(all,0.1s,ease-in);
+            a{
          font-size:$texte;
          font-weight:bold;
          color:$bleu;
          text-decoration: underline;
        }
+
           &:hover,&:focus,&:active{
-              background: $gris;
-                  a{
-            color:$blanc;
-          }
+            transform:translateY(-8px);
+            box-shadow: 0 -4px 0 $bleu,0 3px 6px rgba($noir,0.55);
+            &:nth-of-type(3), &:nth-of-type(4){
+              transform:translateY(8px);
+              box-shadow: 0 4px 0 $bleu,0 3px 6px rgba($noir,0.55);
+            }
+
            }
      }
   }
@@ -219,12 +227,18 @@
               //svg layout
             width:100%;
             //object-position:50% 50%;
+            &.svg-logo{
+              width:120px;
+            }
+
+
           }
           & .overlay--content{
             position:absolute;
             top:50%;
             left:50%;
             transform: translate(-50%,-50%);
+            @include flex-standard(row,center,center);
             width:0;
             height:0;
             overflow: hidden;
@@ -232,6 +246,17 @@
             background:linear-gradient(rgba($bleu-logo,0.25), rgba($bleu-logo,0.25));
             //background:radial-gradient( rgba($bleu-logo,0.10) 0%, rgba($bleu-logo,0.45) 50%, rgba($bleu-logo,0.75) 100%);
             transition:all 0.35s ease-in-out;
+              & span{
+                opacity:0;
+                position:absolute;
+                top:100%;
+                left:50%;
+                text-align: center;
+                transform: translate(-50%,-50%);
+                @include transition-standard(all,0.1s,ease-out);
+                color:$blanc;
+                font-weight:bold;
+              }
           }
             &:hover,&:focus{
             outline-color:$bleu-logo;
@@ -242,6 +267,11 @@
                 width:100%;
                 height:100%;
                 border-radius:0;
+                & span{
+                  opacity:1;
+                  top:50%;
+
+                }
               }
 
           }
@@ -272,6 +302,7 @@
   & > iframe {
     align-self: center;
     margin-bottom:2rem;
+    box-shadow: 0 2px 4px rgba($noir,0.85);
   }
   & > a{
     align-self:center;
@@ -326,13 +357,13 @@
 .logiciels--modules{
   @include flex-standard(column,center,flex-start);
   list-style-type:disc;
-  list-style-image: url("../img/icon/check-list.svg");
+  //list-style-image: url("../img/icon/check-list.svg");
   li{
     font-size:$texte;
   }
 }
 
-//services
+//Services
 .contrat-slider{
   justify-content: space-between;
 }
@@ -341,7 +372,8 @@
   @include flex-standard(column,flex-start,center);
   background-color:$blanc;
   @extend %btn-radius;
-  box-shadow: 0 0 4px rgba($noir,0.55),0 2px 2px rgba($noir,0.45), 0 0 0 2px $bleu-logo;
+  box-shadow: 0 0 4px rgba($noir,0.35),0 2px 2px rgba($noir,0.45), 0 0 0 2px $bleu-logo;
+  @include transition-standard(all,0.15s,ease-in-out);
   & h2{
     margin-top:0.85rem;
     font-size:$h2;
@@ -356,7 +388,10 @@
   & img{
     max-width:100px;
   }
-
+  &:hover,&:focus{
+    transform:translateY(-8px);
+    box-shadow:0 0 4px rgba($noir,0.55), 0 4px 8px rgba($noir,0.85),0 0 0 2px $bleu-logo;
+  }
 }
 .contrat--header{
   @include flex-standard(column,center,center);
