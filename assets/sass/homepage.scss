@@ -591,7 +591,8 @@
       width:40%;
       @include flex-standard(column,center,flex-end);
         img{
-          max-width:90%;
+          border-radius:20px 0 0 20px;
+          box-shadow: 0 0 0 2px $bleu, 0 2px 4px rgba($noir,0.45);
         }
 
     }
@@ -608,7 +609,7 @@
   //  margin:0 auto;
   //}
   .blog_content{
-    margin-top:1rem;
+    margin:2rem 0 1rem;
 
       .blog_content--top{
         @include flex-standard(row,flex-start,center);

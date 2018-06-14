@@ -1325,10 +1325,11 @@ button.toggle-search {
       justify-content: center;
       align-items: flex-end; }
       #services .services-slider--content .right--content img {
-        max-width: 90%; }
+        border-radius: 20px 0 0 20px;
+        box-shadow: 0 0 0 2px #2c317d, 0 2px 4px rgba(51, 51, 51, 0.45); }
 
 #blog-news .blog_content {
-  margin-top: 1rem; }
+  margin: 2rem 0 1rem; }
   #blog-news .blog_content .blog_content--top {
     display: flex;
     flex-direction: row;

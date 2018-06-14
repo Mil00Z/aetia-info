@@ -68,6 +68,7 @@
                             <h3 class="sauvegarde">Sauvegarde, réplication, restauration</h3>
                             <ul class="list-solutions">
                                 <li>item 1</li>
+                                <li>item n</li>
                             </ul>
 <!--                            <img src="assets/img/icon/diskette.svg" alt="">-->
 

@@ -9,7 +9,7 @@
 
         <div class="row">
 
-            <ul class="list-services nav nav-tabs col-lg-4 col-sm-4">
+            <ul class="list-services nav nav-tabs col-lg-5 col-sm-5">
                     <li class="nav-item"><a href="#slide1" class="nav-link active"  data-toggle="tab">Audit et conseil en architecture </a></li>
                     <li class="nav-item"><a href="#slide2" class="nav-link" data-toggle="tab">Maintenance</a></li>
                     <li class="nav-item"><a href="#slide3" class="nav-link" data-toggle="tab">Installation & paramétrage des solutions</a></li>
@@ -19,7 +19,7 @@
                     <li class="nav-item"><a href="#slide7" class="nav-link" data-toggle="tab">Location</a></li>
             </ul>
 
-            <aside class="tab-content col-lg-8 col-sm-8">
+            <aside class="tab-content col-lg-7 col-sm-7">
 
                     <!--    slide-pan1-->
                     <div class="tab-pane front-slide active" id="slide1">
