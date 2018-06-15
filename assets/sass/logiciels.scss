@@ -24,7 +24,6 @@
   @extend %banner-top--solutions;
 }
 
-
 //Layout Général
 .logiciels{
   @extend %padding-section;
@@ -163,14 +162,19 @@
 }
 //layout pour service
 .services_subcontent{
-  //max-width:50%;
-  margin-top:1rem;
   @include flex-standard(column,space-between,flex-start);
+
+    &:not(:first-of-type){
+  margin:1rem 0;
+  }
+
   & > img:not(.svg-logo) {
    margin:0 auto;
+    @include box-shadow(0,3px,6px,rgba($noir,0.35));
   }
   & > img.svg-logo{
-  width:150px;
+  width:200px;
+  filter:drop-shadow(3px 3px 1px rgba($bleu,0.45));
   }
   & > p:first-of-type {
     margin-top:1rem;
@@ -297,12 +301,34 @@
   margin-top:2rem;
   @include flex-standard(column,flex-start,flex-start);
   //si video
-  & > iframe {
+  &  h3{
+    font-size:$texte;
+    font-style: italic;
+    align-self: center;
+    margin-top: 1rem;
+    text-align: center;
+    color:$bleu;
+    text-shadow:1px 1px 1px rgba($noir,0.35);
+  }
+  .video-container{
+    background-size:100% 75%;
+    @include transition-standard();
+    & iframe{
+      max-width:100%;
+      box-shadow: 0 2px 4px rgba($noir,0.85);
+    }
+    &:hover,&:focus{
+
+      background-color:rgba($bleu,0.35);
+    }
+  }
+  //si pas bloc Row
+  &  iframe {
     align-self: center;
     margin-bottom:2rem;
     box-shadow: 0 2px 4px rgba($noir,0.85);
   }
-  & > a{
+  &  a{
     align-self:center;
     line-height:$button-item;
   }
@@ -405,7 +431,7 @@
   }
 }
 
-//Specs
+//Specs spéciales
 //Devilog
 #gestion_pme,#tableaux_bord{
   .logiciels--modules{
@@ -413,6 +439,11 @@
   }
   .logiciels-more_content{
     display:none;
+  }
+}
+#replication_restau{
+  .services_content--main{
+    margin-top:1rem;
   }
 }
 
