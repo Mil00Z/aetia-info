@@ -397,64 +397,64 @@ button.toggle-search.active-search { background: url("../img/icon/close-black.sv
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000314}}
 #main-footer img { width: 170px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000320}}
 .main-footer_brand { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; margin-top: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000324}}
 .main-footer_brand img { width: 300px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000327}}
 .main-footer_brand .sub-nav_container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-flex: 0; -ms-flex: 0 1 65%; flex: 0 1 65%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000330}}
 .main-footer_brand .sub-nav_container ul { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000333}}
 .main-footer_brand .sub-nav_container ul .sub-nav_col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000335}}
 .main-footer_brand .sub-nav_container ul .sub-nav_col ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000338}}
 .main-footer_brand .sub-nav_container ul .sub-nav_col li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000342}}
 .main-footer_brand .sub-nav_container ul .sub-nav_col li a { color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000344}}
 .main-footer_brand .sub-nav_container ul .sub-nav_col li a:hover, .main-footer_brand .sub-nav_container ul .sub-nav_col li a:focus { text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000352}}
 .main-footer_brand h2 { font-size: 25px; color: white; text-decoration: underline; margin-bottom: 1.5rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000360}}
 .main-footer_social-network { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000362}}
 .main-footer_social-network nav, .main-footer_social-network ul { width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000367}}
 .main-footer_social-network .social-nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000370}}
 .main-footer_social-network .social-nav img { max-width: 75px; -webkit-filter: drop-shadow(1px 1px 2px #333333); filter: drop-shadow(1px 1px 2px #333333); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000379}}
-.brand_coord { position: absolute; right: 10px; bottom: 15px; width: calc(33% - 20px); max-width: 500px; background: white; padding: 8px 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); -webkit-perspective: 800px; perspective: 800px; -webkit-transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in, -webkit-transform 0.45s ease-in; will-change: transform; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000380}}
+.brand_coord { position: absolute; right: 80px; bottom: 15px; width: calc(33% - 20px); max-width: 500px; background: white; padding: 8px 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); -webkit-perspective: 800px; perspective: 800px; -webkit-transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in, -webkit-transform 0.45s ease-in; will-change: transform; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000394}}
 .brand_coord .brand_name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000396}}
 .brand_coord .brand_name h2 { font-size: 16px; color: #2c317d; font-weight: bold; margin-bottom: 5px; line-height: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003103}}
 .brand_coord .brand_name span:first-of-type { font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003107}}
 .brand_coord .brand_adress { display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003109}}
 .brand_coord .brand_adress ul { margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003111}}
 .brand_coord .brand_adress ul li { font-size: 12px; line-height: 1.15; color: #77889f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003119}}
 .brand_coord .brand_contact { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003122}}
 .brand_coord .brand_contact a { color: #77889f; font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003129}}
 .brand_coord:hover, .brand_coord:focus, .brand_coord.active-coord { outline: 2px solid rgba(44, 49, 125, 0.35); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003140}}
 #sub-footer ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003142}}
 #sub-footer ul li { margin: 0 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003144}}
 #sub-footer ul li a { color: white; font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003147}}
 #sub-footer ul li a .copyright { font-style: italic; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\0000314}}
@@ -553,90 +553,89 @@ button.toggle-search.active-search { background: url("../img/icon/close-black.sv
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003372}}
 #solutions-infra .list-solutions_container .list-solutions--items h3::before { content: ""; width: 30px; height: 30px; background-size: 30px 30px; display: inline-block; vertical-align: middle; margin-right: 0.65rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003382}}
-#solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde-aetia::before { background: url("../img/icon/AETIA2xprotection.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003388}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde-aetia::before { width: 60px; height: 60px; background: url("../img/icon/AETIA2xprotection.svg") no-repeat center; background-size: 60px 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003392}}
 #solutions-infra .list-solutions_container .list-solutions--items h3.reseau::before { background: url("../img/icon/architecture.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003394}}
-#solutions-infra .list-solutions_container .list-solutions--items h3.materiel::before { background: url("../img/icon/distribution_info.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003398}}
+#solutions-infra .list-solutions_container .list-solutions--items h3.materiel::before { background: url("../img/icon/distrib-info.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003405}}
 #solutions-infra .list-solutions_container .list-solutions--items h3.conseil::before { background: url("../img/icon/architecture.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003411}}
 #solutions-infra .list-solutions_container .list-solutions--items h3.telecom::before { background: url("../img/icon/safety.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003417}}
 #solutions-infra .list-solutions_container .list-solutions--items h3.sauvegarde::before { background: url("../img/icon/diskette.svg") no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003424}}
 #solutions-infra .list-solutions_container .list-solutions--items ul { margin-top: 1rem; padding-left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003429}}
 #solutions-infra .list-solutions_container .list-solutions--items ul li { font-size: 18px; color: #77889f; font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003435}}
 #solutions-infra .list-solutions_container .list-solutions--items img { max-width: 80px; outline: 2px solid #2c317d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003443}}
 #solutions-infra .gallery-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: 800px; padding: 0 8px 8px; -ms-flex-line-pack: justify; align-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003448}}
-#solutions-infra .gallery-container img { outline: 3px solid transparent; outline-offset: -2px; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003452}}
+#solutions-infra .gallery-container img { outline: 3px solid transparent; outline-offset: -2px; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003456}}
 #solutions-infra .gallery-container img:hover { outline-color: #2c317d; outline-offset: 0; -webkit-filter: grayscale(65%); filter: grayscale(65%); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003463}}
 #solutions-infra .gallery-container .squarred { max-width: 270px; height: 280px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003468}}
 #solutions-infra .gallery-container .pano { width: 100%; height: 280px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003469}}
-#solutions-infra .gallery-container .squarred-sm { width: 180px; height: 180px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003473}}
+#solutions-infra .gallery-container .squarred-sm { width: 180px; height: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003477}}
 #solutions-infra .gallery-container .pano-sm { width: 65%; height: 180px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003487}}
 #services { background: #eaf3ff; overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003492}}
 #services .list-services { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003494}}
 #services .list-services li { position: relative; display: inline-block; height: 45px; line-height: 1; padding: 5px 3px; background-color: transparent; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003499}}
-#services .list-services li a { color: #2c317d; background: transparent; border-radius: 5px !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003503}}
+#services .list-services li a { color: #2c317d; background: transparent; border-radius: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003507}}
 #services .list-services li a.active { color: white; background: #2c317d !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003525}}
 #services .list-services li:hover a, #services .list-services li:hover .active, #services .list-services li:focus a, #services .list-services li:focus .active, #services .list-services li:active a, #services .list-services li:active .active { color: white; background: #2c317d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003534}}
 #services .slick-dots { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003536}}
 #services .slick-dots li { width: 60px; height: 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003539}}
 #services .slick-dots li button { border: none; background: transparent; width: 100%; height: 100%; color: #2c317d; border-radius: 5px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003547}}
 #services .slick-dots li.slick-active { background-color: #2c317d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003549}}
 #services .slick-dots li.slick-active button { color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003556}}
 #services .front-slide.active { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003561}}
 #services .services-slider--content { width: 75%; min-height: 250px; padding: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; opacity: 1; background: white; outline: 1px solid #77889f; -webkit-box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55); box-shadow: 0 5px 6px rgba(119, 136, 159, 0.55); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003571}}
-#services .services-slider--content .left--content { width: 55%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003575}}
+#services .services-slider--content .left--content { width: 55%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003579}}
 #services .services-slider--content .left--content h3 { font-size: 22px; color: #77889f; line-height: 1.1; margin-bottom: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003585}}
 #services .services-slider--content .left--content p { line-height: 1.25; color: #333333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003590}}
 #services .services-slider--content .right--content { width: 40%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003589}}
-#services .services-slider--content .right--content img { max-width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003593}}
+#services .services-slider--content .right--content img { border-radius: 20px 0 0 20px; -webkit-box-shadow: 0 0 0 2px #2c317d, 0 2px 4px rgba(51, 51, 51, 0.45); box-shadow: 0 0 0 2px #2c317d, 0 2px 4px rgba(51, 51, 51, 0.45); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003607}}
-#blog-news .blog_content { margin-top: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003610}}
-#blog-news .blog_content .blog_content--top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003611}}
+#blog-news .blog_content { margin: 2rem 0 1rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003614}}
+#blog-news .blog_content .blog_content--top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003618}}
 #blog-news .blog_content .blog_content--top .tag { font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003621}}
 #blog-news .blog_content .blog_content--top .tag:first-of-type { background: rgba(44, 49, 125, 0.25); color: #2c317d; margin-right: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003626}}
 #blog-news .blog_content .blog_content--top .tag:nth-of-type(2) { background: rgba(119, 136, 159, 0.25); color: #77889f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003631}}
 #blog-news .blog_content .blog_content--top .date-post { margin: 0 1rem 0 auto; font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003637}}
 #blog-news .blog_content .blog_content--post h2 { font-size: 30px; color: #77889f; margin-bottom: 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/laragon\/www\/aetia-info\/assets\/sass\/homepage\.scss}line{font-family:\00003642}}
 #blog-news .blog_content .blog_content--post p { line-height: 1.1; color: #333333; }
-
 /*# sourceMappingURL=homepage.css.map */

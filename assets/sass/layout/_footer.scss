@@ -16,6 +16,7 @@
   }
 }
 //footer block
+//footer block
 .main-footer_brand{
   @include flex-standard(row,space-between,flex-start);
   margin-top:1rem;
@@ -78,7 +79,7 @@
 
 .brand_coord{
   position:absolute;
-  right:10px;
+  right:80px;
   bottom:15px;
   width:calc(33% - 20px);
   max-width:500px;

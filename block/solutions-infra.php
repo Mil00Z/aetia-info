@@ -14,7 +14,7 @@
                         <div class="list-solutions--items">
 
                             <h3 class="sauvegarde-aetia">Solutions de sauvegarde</h3>
-                            <ul class="list-solutions--items">
+                            <ul class="list-solutions">
                                 <li>item 1</li>
                                 <li>item 2</li>
                                 <li> item 3</li>
@@ -28,7 +28,7 @@
                         <div class="list-solutions--items">
 
                             <h3 class="materiel">Matériel Informatique</h3>
-                            <ul class="list-solutions--items">
+                            <ul class="list-solutions">
                                 <li>item 1</li>
                                 <li>item 2</li>
                                 <li> item n</li>
@@ -40,7 +40,7 @@
                         <div class="list-solutions--items">
 
                             <h3 class="conseil">Conseil en architecture</h3>
-                            <ul class="list-solutions--items">
+                            <ul class="list-solutions">
                                 <li>item 1</li>
                                 <li>item 2</li>
                                 <li> item 3</li>
@@ -53,7 +53,7 @@
                         <div class="list-solutions--items">
 
                             <h3 class="telecom">Accès télécom</h3>
-                            <ul class="list-solutions--items">
+                            <ul class="list-solutions">
                                 <li>item 1</li>
                                 <li>item 2</li>
                                 <li> item 3</li>
@@ -66,26 +66,13 @@
                         <div class="list-solutions--items">
 
                             <h3 class="sauvegarde">Sauvegarde, réplication, restauration</h3>
-                            <ul class="list-solutions--items">
+                            <ul class="list-solutions">
                                 <li>item 1</li>
+                                <li>item n</li>
                             </ul>
 <!--                            <img src="assets/img/icon/diskette.svg" alt="">-->
 
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     </div>
 

@@ -377,11 +377,15 @@
             vertical-align: middle;
             margin-right: 0.65rem;
           }
-          //necessite le décompte total des items à afficher
+          //necessite le décompte total précis des items à afficher
           &.sauvegarde-aetia{
             &::before{
+              //picto illisible plus petit
+              width:60px;
+              height:60px;
               background:url("../img/icon/AETIA2xprotection.svg") no-repeat center;
               //background:url("../img/icon/diskette-sm.svg") no-repeat center;
+              background-size:60px 60px;
             }
           }
           &.reseau{
@@ -392,8 +396,8 @@
           }
           &.materiel{
             &::before{
-              background:url("../img/icon/distribution_info.svg") no-repeat center;
-               //background:url("../img/icon/distribution_info-sm.svg") no-repeat center;
+              background:url("../img/icon/distrib-info.svg") no-repeat center;
+               //background:url("../img/icon/distribution-info-sm.svg") no-repeat center;
             }
 
           }
@@ -587,7 +591,8 @@
       width:40%;
       @include flex-standard(column,center,flex-end);
         img{
-          max-width:90%;
+          border-radius:20px 0 0 20px;
+          box-shadow: 0 0 0 2px $bleu, 0 2px 4px rgba($noir,0.45);
         }
 
     }
@@ -598,14 +603,13 @@
 //SECTION Blog
 #blog-news{
   @extend %padding-section;
-
   //si besoin de center les articles comme sur maquette
   //.blog_gallery{
   //  width:75%;
   //  margin:0 auto;
   //}
   .blog_content{
-    margin-top:1rem;
+    margin:2rem 0 1rem;
 
       .blog_content--top{
         @include flex-standard(row,flex-start,center);
