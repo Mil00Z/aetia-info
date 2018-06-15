@@ -65,7 +65,7 @@
     object-position: -2px 0;
     @include transition-standard(transform,0.1s, ease-in-out);
     &:hover{
-      transform:scale3d(1.01,1.01,1.01);
+      //transform:scale3d(1.01,1.01,1.01);
     }
   }
   & p.accroche{
@@ -161,18 +161,16 @@
      }
   }
 }
-
-
-//refactoriser les modules services et annonce card container
 //layout pour service
 .services_subcontent{
   //max-width:50%;
   margin-top:1rem;
   @include flex-standard(column,space-between,flex-start);
-  & > img {
-    width:200px;
-    max-width:300px;
-    margin: 0 auto;
+  & > img:not(.svg-logo) {
+   margin:0 auto;
+  }
+  & > img.svg-logo{
+  width:150px;
   }
   & > p:first-of-type {
     margin-top:1rem;

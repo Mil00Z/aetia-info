@@ -591,13 +591,10 @@
       width:40%;
       @include flex-standard(column,center,flex-end);
         img{
-          border-radius:20px 0 0 20px;
-          box-shadow: 0 0 0 2px $bleu, 0 2px 4px rgba($noir,0.45);
+          box-shadow: 0 0 0 1px $bleu, 0 2px 5px rgba($noir,0.55);
         }
-
     }
   }
-
 }
 
 //SECTION Blog
