@@ -33,13 +33,14 @@
       width:40px;
       height:40px;
       margin-left:2rem;
+      animation:scale_updown 1s ease-in-out infinite alternate;
         & > svg{
-          width:90%;
+          width:100%;
           height:auto;
           & path{
             fill:$bleu;
-            stroke: #d3d6da;
-            stroke-width:10px;
+            //stroke: #d3d6da;
+            //stroke-width:10px;
           }
 
 

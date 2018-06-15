@@ -555,11 +555,11 @@
   //position du tab-pane quand actif
   .front-slide.active{
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .services-slider--content{
-    width:75%;
+    width:100%;
     min-height:250px;
     padding:15px;
     display:flex;
