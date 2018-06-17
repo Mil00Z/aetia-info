@@ -555,11 +555,11 @@
   //position du tab-pane quand actif
   .front-slide.active{
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .services-slider--content{
-    width:75%;
+    width:100%;
     min-height:250px;
     padding:15px;
     display:flex;
@@ -591,13 +591,10 @@
       width:40%;
       @include flex-standard(column,center,flex-end);
         img{
-          border-radius:20px 0 0 20px;
-          box-shadow: 0 0 0 2px $bleu, 0 2px 4px rgba($noir,0.45);
+          box-shadow: 0 0 0 1px $bleu, 0 2px 5px rgba($noir,0.55);
         }
-
     }
   }
-
 }
 
 //SECTION Blog

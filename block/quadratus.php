@@ -8,7 +8,7 @@
             <h3>Solution de gestion globale et 100% intégrée</h3>
         </div>
 
-        <img src="assets/img/logo-brand/logoQuadratus.png" alt="logo Quadratus" class="picto-logiciels">
+        <img src="assets/img/logo-brand/quadra_logo.png" alt="logo Quadratus" class="picto-logiciels">
 
         <p>Quadra Entreprise est un outil puissant pour gagner en compétitivité.</p>
         <p>Ce logiciel complet propose de nombreux modules adaptés à votre secteur et couvrira l’ensemble de votre activité :</p>

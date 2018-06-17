@@ -99,8 +99,9 @@
 
 %link-cta{
   width:200px;
-  height:70px;
-  padding:1rem 0.5rem;
+  line-height:2rem;
+  //height:70px;
+  padding:1rem 0;
   border:1px solid transparent;
   text-align:center;
 }
@@ -110,7 +111,7 @@
   background-position:100% 0;
   font-weight:bold;
   border-radius:3px;
-  transition: background 0.3s  ease-in;
+  transition: background 0.2s  ease-in;
   &:hover,&:focus{
     background-position:0 0;
   }

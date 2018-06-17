@@ -8,7 +8,7 @@
             <h3>Sous titre éventuel</h3>
         </div>
 
-        <img src="assets/img/icon/world-network.svg" alt="icone de solutions réseaux" class="picto-services">
+        <img src="assets/img/icon/world-network-sm.svg" alt="icone de solutions réseaux" class="picto-services--rounded">
 
         <div class="services_subcontent">
 

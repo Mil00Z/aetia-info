@@ -8,7 +8,7 @@
             <h3>Sous titre éventuel</h3>
         </div>
 
-        <img src="assets/img/icon/diskette.svg" alt="icone de la solution de sauvegarde Aetia 2X" class="picto-services">
+        <img src="assets/img/icon/diskette-sm.svg" alt="icone de la solution de sauvegarde" class="picto-services--rounded">
 
         <p>Veeam Backup est beaucoup plus qu'un logiciel de sauvegarde. Il permet une récupération rapide, souple et efficace d'applications et de données virtualisées.
         </p>

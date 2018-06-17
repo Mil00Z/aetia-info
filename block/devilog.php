@@ -8,7 +8,7 @@
             <h3>Gestion harmonieuse de votre entreprise</h3>
         </div>
 
-        <img src="assets/img/logo-brand/devilog-logo.svg" alt="logo Devilog" class="picto-logiciels">
+        <img src="assets/img/logo-brand/devilog_logo.gif" alt="logo Devilog" class="picto-logiciels">
 
         <p>De l’analyse de votre activité, au suivi de vos marges par affaire et de vos stocks, Devilog est la solution pour vous désencombrer des tâches fastidieuses.
         </p>
