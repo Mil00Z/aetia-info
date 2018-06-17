@@ -5,26 +5,15 @@ $(document).ready(function(){
 
  var viewport_width = $(window).width();
  var toggle_content = $('.toggle-infos');
-    $('#search-bar').hide();
+  $('#search-bar').hide();
 
     $('.logiciels-more_content').addClass('hidden');
-
 
 //toggle search bar
     $('.toggle-search').on('click', function(){
         $(this).toggleClass('active-search');
         $('#search-bar').fadeToggle(700);
     });
-
- // push off top bar
- //    $(window).on('scroll',function(){
- //        if($(this).scrollTop() > 20) {
- //            $('#top-bar').toggleClass('off-view');
- //        } else {
- //            console.log('top bar regular');
- //        }
- //    });
-
 
 // Afficher les contenus cachés supplémentaires
  toggle_content.on('click','button', function(e){
@@ -97,12 +86,6 @@ $(document).ready(function(){
 //         });
 
 
-
-//Stacked Slider SERVICES
-//     var stack = $('.tab-content').paperstack({});
-//     $('#next').click(stack.next);
-//     $('#prev').click(stack.previous);
-
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         var target = $(this).attr('href');
 
@@ -135,40 +118,14 @@ $(document).ready(function(){
 //      console.log(target);
 //  });
 
-// // Slick init 1
-//     $('.presentation-slider').slick({
-//         arrows:false,
-//         dots:true,
-//         slideToShow:1,
-//         slidesToScroll: 1,
-//         mobileFirst:false,
-//     });
-//     // Slider Activités Card
-//     $('#skills-presentation').slick({
-//         arrows:true,
-//         dots:false,
-//         // appendArrows:'#skills-presentation',
-//         slideToShow:1,
-//         slidesToScroll: 1,
-//         mobileFirst:true,
-//         responsive: [
-//             {
-//                 breakpoints:990,
-//                 settings : 'unslick'
-//             }
-//         ]
-//     });
-//     // alternative 2  pour  unslick
-//     if (viewport_width > 990) {
-//         $('#skills-presentation').slick('unslick');
-//         // console.log('slick card container remove');
-//     }
-//     else {
-//         $('.right-form').find('.form-block').insertAfter($('.left-form .form-block:first'));
-//         // console.log('email block tracker');
-//     }
-
-
+ // push off top bar
+ //    $(window).on('scroll',function(){
+ //        if($(this).scrollTop() > 20) {
+ //            $('#top-bar').toggleClass('off-view');
+ //        } else {
+ //            console.log('top bar regular');
+ //        }
+ //    });
 
 
 
